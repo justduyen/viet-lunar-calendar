@@ -1,5 +1,7 @@
 # 🌙 Lịch Âm Việt Nam — Công cụ tạo file iCalendar
 
+**Tiếng Việt** | [English](./README_EN.md)
+
 ![Update Lunar Calendar ICS](https://github.com/justduyen/viet-lunar-calendar/actions/workflows/main.yml/badge.svg)
 
 Dự án này giúp bạn tạo các file `.ics` chứa thông tin lịch âm Việt Nam (bao gồm ngày lễ truyền thống, Can Chi, Tiết Khí) từ năm **2026 đến 2060**. Các file này có thể dễ dàng nhập (import) vào Google Calendar, Apple Calendar, hoặc Outlook.
@@ -118,4 +120,4 @@ Các file kết quả sẽ được lưu trong thư mục `output/`.
 
 ## 📜 Giấy phép (License)
 
-Dự án này được phát hành dưới giấy phép **MIT**. Xem file `LICENSE` để biết thêm chi tiết.
+Dự án này được phát hành dưới giấy phép **MIT**. Xem chi tiết tại file [LICENSE](./LICENSE).
