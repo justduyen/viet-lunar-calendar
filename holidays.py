@@ -120,35 +120,28 @@ FIXED_LUNAR_HOLIDAYS: dict[tuple, HolidayInfo] = {
 MONTHLY_EVENTS: dict[int, HolidayInfo] = {
 
     1: HolidayInfo(
-        name='🌑 Mùng 1 {m} — Ngày Sóc (Trăng Non)',
-        description='Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New Moon). '
-                    'Ngày tốt để đi lễ chùa, cúng thần linh, thắp hương gia tiên. '
-                    'Nhiều người ăn chay trong ngày này.',
+        name='🌑 Mùng 1 {m}',
+        description='Ngày đầu tiên của tháng âm lịch (Ngày Sóc). Nên đi lễ chùa, thắp hương gia tiên.',
         category='MONTHLY',
     ),
     2: HolidayInfo(
-        name='🕯️ Mùng 2 {m} — Cúng Cô Hồn & Thần Tài',
-        description='Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần Tài cho người kinh doanh. '
-                    'Chuẩn bị lễ vật: hoa quả, muối gạo, tiền vàng mã, nhang đèn.',
+        name='🕯️ Cúng Thần Tài/Cô Hồn',
+        description='Ngày Mùng 2 hàng tháng: Ngày cúng cho người kinh doanh.',
         category='MONTHLY',
     ),
     14: HolidayInfo(
-        name='⚠️ Ngày 14 {m} — Chuẩn Bị Đồ Cúng Rằm',
-        description='Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩn bị lễ vật '
-                    'cúng Rằm: hoa tươi, quả, xôi chè, nhang đèn, vàng mã.',
+        name='⚠️ Nhắc cúng Rằm',
+        description='Ngày mai là Rằm (15 âm). Hãy chuẩn bị đồ lễ.',
         category='REMINDER',
     ),
     15: HolidayInfo(
-        name='🌕 Rằm {m} — Ngày Vọng (Trăng Tròn)',
-        description='Ngày Rằm (15 âm lịch) — Ngày Vọng, trăng tròn. '
-                    'Ngày tốt để đi lễ chùa, cúng gia tiên, thắp hương Phật. '
-                    'Nhiều người ăn chay trong ngày này.',
+        name='🌕 Rằm {m}',
+        description='Ngày Rằm (Ngày Vọng), trăng tròn. Ngày tốt để đi lễ chùa, ăn chay.',
         category='MONTHLY',
     ),
     16: HolidayInfo(
-        name='🕯️ Ngày 16 {m} — Cúng Cô Hồn & Thần Tài',
-        description='Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài cho người kinh doanh. '
-                    'Chuẩn bị lễ vật: hoa quả, muối gạo, tiền vàng mã, nhang đèn.',
+        name='🕯️ Cúng Thần Tài/Cô Hồn',
+        description='Ngày 16 hàng tháng: Ngày cúng cho người kinh doanh.',
         category='MONTHLY',
     ),
 }

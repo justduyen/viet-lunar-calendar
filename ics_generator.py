@@ -95,49 +95,48 @@ def _build_ical_event(
     if not events:
         return None
 
-    # Sắp xếp: primary trước
-    primary_events   = [e for e, p in events if p]
-    secondary_events = [e for e, p in events if not p]
+    # Sắp xếp: daily info làm gốc, các sự kiện khác đi kèm
+    daily_event = [e for e, p in events if e.category == 'DAILY'][0]
+    other_events = [e for e, _ in events if e.category != 'DAILY']
 
-    # Tiêu đề chính (Ngày/Tháng âm lịch)
-    primary = primary_events[0]
-    summary = primary.name
+    # Tiêu đề thông minh: "Ngày/Tháng • Tên Sự Kiện"
+    summary = daily_event.name # e.g. "15/7"
     
-    # Nếu có ngày lễ quan trọng, hãy đưa tên lễ vào Summary luôn cho dễ nhìn
-    # Ví dụ: "1/1 🧧 Tết Nguyên Đán"
-    important_holidays = [e for e in secondary_events if e.category in ('NATIONAL', 'TRADITIONAL')]
-    if important_holidays:
-        summary = f"{summary} • {important_holidays[0].name}"
+    if other_events:
+        # Lấy tên các sự kiện khác, xử lý placeholder {m}
+        event_names = []
+        for e in other_events:
+            n = e.name.replace('{m}', lunar.month_name_vn)
+            # Loại bỏ các emoji lặp lại hoặc chuỗi quá dài nếu cần
+            event_names.append(n)
+        
+        summary = f"{summary} • {' | '.join(event_names)}"
 
     # ── Xây dựng description ────────────────────────────────
     desc_parts: list[str] = []
 
     # Danh sách tất cả sự kiện trong ngày
     for i, (hi, _) in enumerate(events):
-        h_name = hi.name
-        if '{m}' in h_name:
-            h_name = h_name.replace('{m}', lunar.month_name_vn)
-        h_desc = hi.description
-        if '{m}' in h_desc:
-            h_desc = h_desc.replace('{m}', lunar.month_name_vn)
+        h_name = hi.name.replace('{m}', lunar.month_name_vn)
+        h_desc = hi.description.replace('{m}', lunar.month_name_vn)
         
-        prefix = "📌" if i == 0 else "🔹"
+        prefix = "📍" if hi.category in ('NATIONAL', 'TRADITIONAL') else "🔹"
+        if hi.category == 'DAILY': prefix = "📅"
+        
         desc_parts.append(f'{prefix} {h_name}\n{h_desc}')
         if i < len(events) - 1:
             desc_parts.append('──')
 
-    # Thêm footer thông tin âm lịch
-    desc_parts.append('\n' + lunar.build_description_footer())
-
     description = '\n'.join(desc_parts)
 
-    # ── Tạo VEVENT ──────────────────────────────────────────
+    # ── Tạo VEVENT (Sử dụng ID cố định để tránh trùng lặp khi import lại) ────
     event = Event()
-    event.add('uid',         str(uuid.uuid4()) + f'@vietlunar{d.year}')
+    # UID cố định theo ngày: vnlunar-20260217@justduyen
+    event.add('uid',         f"vnlunar-{d.strftime('%Y%m%d')}@justduyen")
     event.add('summary',     summary)
     event.add('description', description)
-    event.add('dtstart',     d)                     # All-day event
-    event.add('dtend',       d + timedelta(days=1)) # Kết thúc ngày hôm sau
+    event.add('dtstart',     d)
+    event.add('dtend',       d + timedelta(days=1))
 
     # Categories (dùng để lọc trong calendar app)
     cats = list({hi.category for hi, _ in events})
