@@ -1,0 +1,1433 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Lịch âm dương Việt Nam từ 2026 đến 2060. Bao gồ
+ m ngày lễ truyền thống\, Mùng 1\, Rằm\, Can Chi\, Tiết Khí. M
+ úi giờ GMT+7 — Asia/Ho_Chi_Minh.
+X-WR-CALNAME:Lịch Âm Việt Nam 2029
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20290113
+DTEND;VALUE=DATE:20290114
+DTSTAMP:20260423T050145Z
+UID:af00ad8f-17fc-498d-918e-8a0fe8146cbb@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 29 Tháng Mười Một Năm Mậu Thân\n🔢 Ngà
+ y: 29/11/2028\n✨ Can Chi Ngày: Quý Mão\n🌙 Can Chi Tháng: Ất S
+ ửu\n🐉 Can Chi Năm: Mậu Thân — Năm Khỉ (Thân)\n────
+ ────────────────────────
+ ────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Chạp — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20290115
+DTEND;VALUE=DATE:20290116
+DTSTAMP:20260423T050145Z
+UID:3e671aa8-0e2b-4e59-ad80-9dcd9d7e3891@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng C
+ hạp Năm Mậu Thân\n🔢 Ngày: 1/12/2028\n✨ Can Chi Ngày: Ất T
+ ỵ\n🌙 Can Chi Tháng: Ất Sửu\n🐉 Can Chi Năm: Mậu Thân — N
+ ăm Khỉ (Thân)\n──────────────────
+ ──────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Chạp — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290116
+DTEND;VALUE=DATE:20290117
+DTSTAMP:20260423T050145Z
+UID:d19ec362-be19-471e-a18a-3054a89eaaca@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Chạp Năm Mậu Thâ
+ n\n🔢 Ngày: 2/12/2028\n✨ Can Chi Ngày: Bính Ngọ\n🌙 Can Chi Th
+ áng: Ất Sửu\n🐉 Can Chi Năm: Mậu Thân — Năm Khỉ (Thân)\n
+ ────────────────────────
+ ────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Chạp — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290128
+DTEND;VALUE=DATE:20290129
+DTSTAMP:20260423T050146Z
+UID:5a070836-8325-4b4c-b150-c6e41f9f5c23@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Chạp Năm Mậu Thân\n🔢 Ngày: 14/12/202
+ 8\n✨ Can Chi Ngày: Mậu Ngọ\n🌙 Can Chi Tháng: Ất Sửu\n🐉 C
+ an Chi Năm: Mậu Thân — Năm Khỉ (Thân)\n────────
+ ────────────────────────
+ ────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Chạp — Ngày Vọng (Trăng Tròn)
+DTSTART;VALUE=DATE:20290129
+DTEND;VALUE=DATE:20290130
+DTSTAMP:20260423T050146Z
+UID:e990ee0d-08d0-4f53-a86f-6f7b1d7b920a@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. N
+ gày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Phật.
+  Nhiều người ăn chay trong ngày này.\n\n────────
+ ────────────────────────
+ ────────\n📅 ÂM LỊCH: Ngày 15 Tháng Chạp Năm M
+ ậu Thân\n🔢 Ngày: 15/12/2028\n✨ Can Chi Ngày: Kỷ Mùi\n🌙 Can
+  Chi Tháng: Ất Sửu\n🐉 Can Chi Năm: Mậu Thân — Năm Khỉ (Th
+ ân)\n──────────────────────
+ ──────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Chạp — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290130
+DTEND;VALUE=DATE:20290131
+DTSTAMP:20260423T050146Z
+UID:abfca629-2222-406b-8aa8-df599b6a1f77@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Chạp Năm Mậu Thân\n
+ 🔢 Ngày: 16/12/2028\n✨ Can Chi Ngày: Canh Thân\n🌙 Can Chi Tháng
+ : Ất Sửu\n🐉 Can Chi Năm: Mậu Thân — Năm Khỉ (Thân)\n─
+ ────────────────────────
+ ───────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🍳 Cúng Ông Công Ông Táo (23 Tháng Chạp)
+DTSTART;VALUE=DATE:20290206
+DTEND;VALUE=DATE:20290207
+DTSTAMP:20260423T050146Z
+UID:49ec7866-655a-47af-a74d-589d56cced1a@vietlunar2029
+CATEGORIES:TRADITIONAL
+COLOR:#FB8C00
+DESCRIPTION:Ngày 23 tháng Chạp âm lịch — Lễ tiễn Ông Công\,
+  Ông Táo về trời. Các gia đình Việt làm lễ cúng cá chép (
+ phóng sinh)\, tiễn Táo Quân lên thiên đình báo cáo với Ngọc
+  Hoàng về việc trong năm.\n\n─────────────
+ ────────────────────────
+ ───\n📅 ÂM LỊCH: Ngày 23 Tháng Chạp Năm Mậu Thân\n🔢 
+ Ngày: 23/12/2028\n✨ Can Chi Ngày: Đinh Mão\n🌙 Can Chi Tháng: Bí
+ nh Dần\n🐉 Can Chi Năm: Mậu Thân — Năm Khỉ (Thân)\n───
+ ────────────────────────
+ ─────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎆 Đêm Giao Thừa — Cuối Năm Âm Lịch
+DTSTART;VALUE=DATE:20290212
+DTEND;VALUE=DATE:20290213
+DTSTAMP:20260423T050146Z
+UID:9595629b-e520-4e14-a6ae-ad2a6228a33c@vietlunar2029
+CATEGORIES:NATIONAL
+COLOR:#E53935
+DESCRIPTION:Đêm Giao Thừa — ngày cuối cùng của năm âm lịch
+ . Các gia đình làm lễ cúng Giao Thừa ngoài trời (cúng trời 
+ đất) và trong nhà (cúng gia tiên) để đón năm mới. Lúc 00:0
+ 0 là thời khắc chuyển giao năm cũ sang năm mới.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Ngày 29 Tháng 
+ Chạp Năm Mậu Thân\n🔢 Ngày: 29/12/2028\n✨ Can Chi Ngày: Quý D
+ ậu\n🌙 Can Chi Tháng: Bính Dần\n🐉 Can Chi Năm: Mậu Thân —
+  Năm Khỉ (Thân)\n─────────────────
+ ───────────────────────
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧧 Mùng 1 Tết Nguyên Đán
+DTSTART;VALUE=DATE:20290213
+DTEND;VALUE=DATE:20290214
+DTSTAMP:20260423T050146Z
+UID:57c4cf5a-4751-4601-b093-2af3c005e5fe@vietlunar2029
+CATEGORIES:MONTHLY,NATIONAL
+COLOR:#E53935
+DESCRIPTION:Ngày đầu tiên của năm mới âm lịch. Đây là ngà
+ y lễ lớn nhất trong năm của người Việt. Gia đình sum họp
+ \, chúc tết\, lì xì\, đi lễ chùa.\n\n——\n🌑 Mùng 1 Tháng 
+ Giêng — Ngày Sóc (Trăng Non)\nNgày đầu tiên của tháng âm l
+ ịch — Ngày Sóc (New Moon). Ngày tốt để đi lễ chùa\, cúng 
+ thần linh\, thắp hương gia tiên. Nhiều người ăn chay trong ng
+ ày này.\n\n────────────────────
+ ────────────────────\n📅 ÂM L
+ ỊCH: Mùng 1 Tháng Giêng Năm Kỷ Dậu\n🔢 Ngày: 1/1/2029\n✨ Ca
+ n Chi Ngày: Giáp Tuất\n🌙 Can Chi Tháng: Bính Dần\n🐉 Can Chi 
+ Năm: Kỷ Dậu — Năm Gà (Dậu)\n───────────
+ ────────────────────────
+ ─────
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧧 Mùng 2 Tết Nguyên Đán
+DTSTART;VALUE=DATE:20290214
+DTEND;VALUE=DATE:20290215
+DTSTAMP:20260423T050146Z
+UID:074b3f0c-4815-4cd6-ba61-2154c35cec3c@vietlunar2029
+CATEGORIES:MONTHLY,NATIONAL
+COLOR:#E53935
+DESCRIPTION:Ngày thứ hai của Tết Nguyên Đán. Thông thường l
+ à ngày về nhà bên ngoại hoặc đi chúc tết họ hàng\, bạn 
+ bè.\n\n——\n🕯️ Mùng 2 Tháng Giêng — Cúng Cô Hồn & Thần
+  Tài\nNgày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Mùng 2 Tháng Giêng Năm Kỷ Dậu\n🔢
+  Ngày: 2/1/2029\n✨ Can Chi Ngày: Ất Hợi\n🌙 Can Chi Tháng: Bín
+ h Dần\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n────
+ ────────────────────────
+ ────────────
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🧧 Mùng 3 Tết Nguyên Đán
+DTSTART;VALUE=DATE:20290215
+DTEND;VALUE=DATE:20290216
+DTSTAMP:20260423T050146Z
+UID:a18fbfe3-9f8b-48b5-992e-c3a1157f9c89@vietlunar2029
+CATEGORIES:NATIONAL
+COLOR:#E53935
+DESCRIPTION:Ngày thứ ba của Tết Nguyên Đán. Ngày cuối cùng t
+ rong 3 ngày Tết chính. Nhiều gia đình làm lễ hóa vàng tiễn 
+ tổ tiên.\n\n───────────────────
+ ─────────────────────\n📅 ÂM 
+ LỊCH: Mùng 3 Tháng Giêng Năm Kỷ Dậu\n🔢 Ngày: 3/1/2029\n✨ C
+ an Chi Ngày: Bính Tý\n🌙 Can Chi Tháng: Bính Dần\n🐉 Can Chi N
+ ăm: Kỷ Dậu — Năm Gà (Dậu)\n────────────
+ ────────────────────────
+ ────
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:💰 Vía Thần Tài (10 Tháng Giêng)
+DTSTART;VALUE=DATE:20290222
+DTEND;VALUE=DATE:20290223
+DTSTAMP:20260423T050146Z
+UID:7f7432f4-9ddb-4281-b9ae-3d14a928795d@vietlunar2029
+CATEGORIES:TRADITIONAL
+COLOR:#FB8C00
+DESCRIPTION:Ngày vía Thần Tài — ngày mùng 10 tháng Giêng âm l
+ ịch. Người kinh doanh mua vàng\, cúng Thần Tài để cầu tài 
+ lộc\, may mắn trong năm mới.\n\n───────────
+ ────────────────────────
+ ─────\n📅 ÂM LỊCH: Mùng 10 Tháng Giêng Năm Kỷ Dậu\n
+ 🔢 Ngày: 10/1/2029\n✨ Can Chi Ngày: Quý Mùi\n🌙 Can Chi Tháng: 
+ Bính Dần\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───
+ ────────────────────────
+ ─────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Giêng — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290226
+DTEND;VALUE=DATE:20290227
+DTSTAMP:20260423T050146Z
+UID:ab732e74-8c34-49fd-99da-2a55608ca812@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Giêng Năm Kỷ Dậu\n🔢 Ngày: 14/1/2029\
+ n✨ Can Chi Ngày: Đinh Hợi\n🌙 Can Chi Tháng: Bính Dần\n🐉 Ca
+ n Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────────
+ ────────────────────────
+ ───────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Giêng — Tết Nguyên Tiêu
+DTSTART;VALUE=DATE:20290227
+DTEND;VALUE=DATE:20290228
+DTSTAMP:20260423T050146Z
+UID:9a6f7bdf-d3db-4ea3-8f7c-8f56929c8e90@vietlunar2029
+CATEGORIES:TRADITIONAL,MONTHLY
+COLOR:#FB8C00
+DESCRIPTION:Rằm tháng Giêng (15/1 âm lịch) hay còn gọi là Tết
+  Nguyên Tiêu. Đây là rằm đầu tiên và quan trọng nhất trong
+  năm. Nhiều người đi lễ chùa cầu an\, cầu phúc cho cả nă
+ m.\n\n——\n🌕 Rằm Tháng Giêng — Ngày Vọng (Trăng Tròn)\nNg
+ ày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. Ngày tốt đ
+ ể đi lễ chùa\, cúng gia tiên\, thắp hương Phật. Nhiều ngư
+ ời ăn chay trong ngày này.\n\n─────────────
+ ────────────────────────
+ ───\n📅 ÂM LỊCH: Ngày 15 Tháng Giêng Năm Kỷ Dậu\n🔢 N
+ gày: 15/1/2029\n✨ Can Chi Ngày: Mậu Tý\n🌙 Can Chi Tháng: Bính 
+ Dần\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────
+ ────────────────────────
+ ───────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Giêng — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290228
+DTEND;VALUE=DATE:20290301
+DTSTAMP:20260423T050146Z
+UID:612660b4-9a88-4c2a-bc47-0a03b1cdcdc8@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Giêng Năm Kỷ Dậu\n
+ 🔢 Ngày: 16/1/2029\n✨ Can Chi Ngày: Kỷ Sửu\n🌙 Can Chi Tháng:
+  Bính Dần\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──
+ ────────────────────────
+ ──────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20290313
+DTEND;VALUE=DATE:20290314
+DTSTAMP:20260423T050146Z
+UID:e66c19dc-182d-4787-afd0-31fd27879cd5@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 29 Tháng Giêng Năm Kỷ Dậu\n🔢 Ngày: 29/1/
+ 2029\n✨ Can Chi Ngày: Nhâm Dần\n🌙 Can Chi Tháng: Đinh Mão\n
+ 🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───────
+ ────────────────────────
+ ─────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Hai — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20290315
+DTEND;VALUE=DATE:20290316
+DTSTAMP:20260423T050146Z
+UID:0d8c0817-83d2-4fad-beac-11d2505131df@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng H
+ ai Năm Kỷ Dậu\n🔢 Ngày: 1/2/2029\n✨ Can Chi Ngày: Giáp Thìn\n
+ 🌙 Can Chi Tháng: Đinh Mão\n🐉 Can Chi Năm: Kỷ Dậu — Năm G
+ à (Dậu)\n────────────────────
+ ────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Hai — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290316
+DTEND;VALUE=DATE:20290317
+DTSTAMP:20260423T050146Z
+UID:8f378c92-9657-471e-9e20-50e2fa9db08a@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Hai Năm Kỷ Dậu\n
+ 🔢 Ngày: 2/2/2029\n✨ Can Chi Ngày: Ất Tỵ\n🌙 Can Chi Tháng: 
+ Đinh Mão\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───
+ ────────────────────────
+ ─────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Hai — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290328
+DTEND;VALUE=DATE:20290329
+DTSTAMP:20260423T050146Z
+UID:26a370f3-ed7d-4e06-ab0a-7af38d9fc376@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Hai Năm Kỷ Dậu\n🔢 Ngày: 14/2/2029\n
+ ✨ Can Chi Ngày: Đinh Tỵ\n🌙 Can Chi Tháng: Đinh Mão\n🐉 Can C
+ hi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──────────
+ ────────────────────────
+ ──────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Hai — Ngày Vọng (Trăng Tròn)
+DTSTART;VALUE=DATE:20290329
+DTEND;VALUE=DATE:20290330
+DTSTAMP:20260423T050146Z
+UID:fb7969c0-feff-4801-9a58-2172e0af8429@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. N
+ gày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Phật.
+  Nhiều người ăn chay trong ngày này.\n\n────────
+ ────────────────────────
+ ────────\n📅 ÂM LỊCH: Ngày 15 Tháng Hai Năm Kỷ D
+ ậu\n🔢 Ngày: 15/2/2029\n✨ Can Chi Ngày: Mậu Ngọ\n🌙 Can Chi 
+ Tháng: Đinh Mão\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n
+ ────────────────────────
+ ────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Hai — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290330
+DTEND;VALUE=DATE:20290331
+DTSTAMP:20260423T050146Z
+UID:835cb4be-c839-43c4-97f6-ae55a44e289d@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Hai Năm Kỷ Dậu\n🔢 N
+ gày: 16/2/2029\n✨ Can Chi Ngày: Kỷ Mùi\n🌙 Can Chi Tháng: Đinh 
+ Mão\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────
+ ────────────────────────
+ ───────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20290412
+DTEND;VALUE=DATE:20290413
+DTSTAMP:20260423T050146Z
+UID:170dd828-2854-47c9-908d-7325bbe44129@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 29 Tháng Hai Năm Kỷ Dậu\n🔢 Ngày: 29/2/202
+ 9\n✨ Can Chi Ngày: Nhâm Thân\n🌙 Can Chi Tháng: Mậu Thìn\n🐉 
+ Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────────
+ ────────────────────────
+ ───────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Ba — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20290414
+DTEND;VALUE=DATE:20290415
+DTSTAMP:20260423T050146Z
+UID:ff298081-cad5-4983-ade3-2d88020207ba@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng B
+ a Năm Kỷ Dậu\n🔢 Ngày: 1/3/2029\n✨ Can Chi Ngày: Giáp Tuất\n
+ 🌙 Can Chi Tháng: Mậu Thìn\n🐉 Can Chi Năm: Kỷ Dậu — Năm G
+ à (Dậu)\n────────────────────
+ ────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Ba — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290415
+DTEND;VALUE=DATE:20290416
+DTSTAMP:20260423T050146Z
+UID:8b5cc5ab-c9c6-45c3-a520-8a5f13d8f188@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Ba Năm Kỷ Dậu\n
+ 🔢 Ngày: 2/3/2029\n✨ Can Chi Ngày: Ất Hợi\n🌙 Can Chi Tháng: 
+ Mậu Thìn\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───
+ ────────────────────────
+ ─────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏺 Giỗ Tổ Hùng Vương (10/3 Âm Lịch)
+DTSTART;VALUE=DATE:20290423
+DTEND;VALUE=DATE:20290424
+DTSTAMP:20260423T050146Z
+UID:c475cf4f-8493-4b89-920a-1cb2d168616d@vietlunar2029
+CATEGORIES:NATIONAL
+COLOR:#E53935
+DESCRIPTION:Ngày Giỗ Tổ Hùng Vương (10 tháng 3 âm lịch) — Qu
+ ốc lễ tưởng nhớ các vua Hùng đã có công dựng nước. Ng
+ ày nghỉ lễ chính thức.\n\n─────────────
+ ────────────────────────
+ ───\n📅 ÂM LỊCH: Mùng 10 Tháng Ba Năm Kỷ Dậu\n🔢 Ngày
+ : 10/3/2029\n✨ Can Chi Ngày: Quý Mùi\n🌙 Can Chi Tháng: Mậu Thì
+ n\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──────
+ ────────────────────────
+ ──────────
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Ba — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290427
+DTEND;VALUE=DATE:20290428
+DTSTAMP:20260423T050146Z
+UID:3ffc5001-2ace-4ff4-95e1-9b27c801317d@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Ba Năm Kỷ Dậu\n🔢 Ngày: 14/3/2029\n✨
+  Can Chi Ngày: Đinh Hợi\n🌙 Can Chi Tháng: Mậu Thìn\n🐉 Can Ch
+ i Năm: Kỷ Dậu — Năm Gà (Dậu)\n───────────
+ ────────────────────────
+ ─────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Ba — Ngày Vọng (Trăng Tròn)
+DTSTART;VALUE=DATE:20290428
+DTEND;VALUE=DATE:20290429
+DTSTAMP:20260423T050146Z
+UID:7f12a236-7a6b-43ef-a6c2-afac21104c47@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. N
+ gày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Phật.
+  Nhiều người ăn chay trong ngày này.\n\n────────
+ ────────────────────────
+ ────────\n📅 ÂM LỊCH: Ngày 15 Tháng Ba Năm Kỷ D
+ ậu\n🔢 Ngày: 15/3/2029\n✨ Can Chi Ngày: Mậu Tý\n🌙 Can Chi Th
+ áng: Mậu Thìn\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─
+ ────────────────────────
+ ───────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Ba — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290429
+DTEND;VALUE=DATE:20290430
+DTSTAMP:20260423T050146Z
+UID:c058b8ef-1fa2-4745-931d-5ccbfc07dcf7@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Ba Năm Kỷ Dậu\n🔢 Ng
+ ày: 16/3/2029\n✨ Can Chi Ngày: Kỷ Sửu\n🌙 Can Chi Tháng: Mậu 
+ Thìn\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────
+ ────────────────────────
+ ───────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20290511
+DTEND;VALUE=DATE:20290512
+DTSTAMP:20260423T050146Z
+UID:45934ef5-059e-47cf-9056-c8280460d9b8@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 28 Tháng Ba Năm Kỷ Dậu\n🔢 Ngày: 28/3/2029
+ \n✨ Can Chi Ngày: Tân Sửu\n🌙 Can Chi Tháng: Kỷ Tỵ\n🐉 Can 
+ Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──────────
+ ────────────────────────
+ ──────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Tư — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20290513
+DTEND;VALUE=DATE:20290514
+DTSTAMP:20260423T050146Z
+UID:9049bd5e-e1a3-4276-b275-4667e059d15f@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng T
+ ư Năm Kỷ Dậu\n🔢 Ngày: 1/4/2029\n✨ Can Chi Ngày: Quý Mão\n
+ 🌙 Can Chi Tháng: Kỷ Tỵ\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà
+  (Dậu)\n─────────────────────
+ ───────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Tư — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290514
+DTEND;VALUE=DATE:20290515
+DTSTAMP:20260423T050146Z
+UID:4806b641-0889-4ca5-a0d3-bbbe625b1cf8@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Tư Năm Kỷ Dậu\n
+ 🔢 Ngày: 2/4/2029\n✨ Can Chi Ngày: Giáp Thìn\n🌙 Can Chi Tháng:
+  Kỷ Tỵ\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───
+ ────────────────────────
+ ─────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Tư — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290526
+DTEND;VALUE=DATE:20290527
+DTSTAMP:20260423T050146Z
+UID:735de2ac-6438-4e2b-bfe8-0bea32804a8b@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Tư Năm Kỷ Dậu\n🔢 Ngày: 14/4/2029\n
+ ✨ Can Chi Ngày: Bính Thìn\n🌙 Can Chi Tháng: Kỷ Tỵ\n🐉 Can C
+ hi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──────────
+ ────────────────────────
+ ──────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🙏 Lễ Phật Đản (15/4 Âm Lịch)
+DTSTART;VALUE=DATE:20290527
+DTEND;VALUE=DATE:20290528
+DTSTAMP:20260423T050146Z
+UID:a53d4fb2-b607-4f36-aa0d-2c5e1d6d3de9@vietlunar2029
+CATEGORIES:TRADITIONAL,MONTHLY
+COLOR:#FB8C00
+DESCRIPTION:Lễ Phật Đản — kỷ niệm ngày Đức Phật Thích 
+ Ca Mâu Ni đản sinh (15 tháng 4 âm). Phật tử đến chùa lễ Ph
+ ật\, thả đèn hoa đăng\, phóng sinh.\n\n——\n🌕 Rằm Tháng 
+ Tư — Ngày Vọng (Trăng Tròn)\nNgày Rằm (15 âm lịch) — Ngày
+  Vọng\, trăng tròn. Ngày tốt để đi lễ chùa\, cúng gia tiên
+ \, thắp hương Phật. Nhiều người ăn chay trong ngày này.\n\n
+ ────────────────────────
+ ────────────────\n📅 ÂM LỊCH: Ngày 1
+ 5 Tháng Tư Năm Kỷ Dậu\n🔢 Ngày: 15/4/2029\n✨ Can Chi Ngày: Đ
+ inh Tỵ\n🌙 Can Chi Tháng: Kỷ Tỵ\n🐉 Can Chi Năm: Kỷ Dậu 
+ — Năm Gà (Dậu)\n─────────────────
+ ───────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Tư — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290528
+DTEND;VALUE=DATE:20290529
+DTSTAMP:20260423T050146Z
+UID:4e4e005b-c484-474b-b50a-a7871fa980b5@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Tư Năm Kỷ Dậu\n🔢 N
+ gày: 16/4/2029\n✨ Can Chi Ngày: Mậu Ngọ\n🌙 Can Chi Tháng: Kỷ
+  Tỵ\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────
+ ────────────────────────
+ ───────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20290610
+DTEND;VALUE=DATE:20290611
+DTSTAMP:20260423T050146Z
+UID:cbfba2a6-97dc-422c-9a36-1797c6ee07b0@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 29 Tháng Tư Năm Kỷ Dậu\n🔢 Ngày: 29/4/202
+ 9\n✨ Can Chi Ngày: Tân Mùi\n🌙 Can Chi Tháng: Canh Ngọ\n🐉 Can
+  Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──────────
+ ────────────────────────
+ ──────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Năm — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20290612
+DTEND;VALUE=DATE:20290613
+DTSTAMP:20260423T050146Z
+UID:8b72ee60-dbc1-452e-9c4c-67b491266104@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng N
+ ăm Năm Kỷ Dậu\n🔢 Ngày: 1/5/2029\n✨ Can Chi Ngày: Quý Dậu\n
+ 🌙 Can Chi Tháng: Canh Ngọ\n🐉 Can Chi Năm: Kỷ Dậu — Năm G
+ à (Dậu)\n────────────────────
+ ────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Năm — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290613
+DTEND;VALUE=DATE:20290614
+DTSTAMP:20260423T050146Z
+UID:03491742-8978-4611-8a38-576e2d2fc18d@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Năm Năm Kỷ Dậu\n
+ 🔢 Ngày: 2/5/2029\n✨ Can Chi Ngày: Giáp Tuất\n🌙 Can Chi Tháng
+ : Canh Ngọ\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──
+ ────────────────────────
+ ──────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:☀️ Tết Đoan Ngọ (5/5 Âm Lịch)
+DTSTART;VALUE=DATE:20290616
+DTEND;VALUE=DATE:20290617
+DTSTAMP:20260423T050146Z
+UID:5a5b5612-996d-44cd-b850-40a48f20fcfa@vietlunar2029
+CATEGORIES:TRADITIONAL
+COLOR:#FB8C00
+DESCRIPTION:Tết Đoan Ngọ (mùng 5 tháng 5 âm lịch) hay Tết di
+ ệt sâu bọ. Người Việt ăn rượu nếp\, hoa quả để tiêu 
+ diệt "sâu bọ" trong người. Thời điểm giữa năm âm lịch.\
+ n\n───────────────────────
+ ─────────────────\n📅 ÂM LỊCH: Mùn
+ g 5 Tháng Năm Năm Kỷ Dậu\n🔢 Ngày: 5/5/2029\n✨ Can Chi Ngày: 
+ Đinh Sửu\n🌙 Can Chi Tháng: Canh Ngọ\n🐉 Can Chi Năm: Kỷ Dậ
+ u — Năm Gà (Dậu)\n────────────────
+ ────────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Năm — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290625
+DTEND;VALUE=DATE:20290626
+DTSTAMP:20260423T050146Z
+UID:6a708224-8510-4f93-869f-99c92b716107@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Năm Năm Kỷ Dậu\n🔢 Ngày: 14/5/2029\n
+ ✨ Can Chi Ngày: Bính Tuất\n🌙 Can Chi Tháng: Canh Ngọ\n🐉 Can
+  Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──────────
+ ────────────────────────
+ ──────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Năm — Ngày Vọng (Trăng Tròn)
+DTSTART;VALUE=DATE:20290626
+DTEND;VALUE=DATE:20290627
+DTSTAMP:20260423T050146Z
+UID:af505cd7-866a-48c5-9c01-fb7ad2c80f82@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. N
+ gày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Phật.
+  Nhiều người ăn chay trong ngày này.\n\n────────
+ ────────────────────────
+ ────────\n📅 ÂM LỊCH: Ngày 15 Tháng Năm Năm Kỷ 
+ Dậu\n🔢 Ngày: 15/5/2029\n✨ Can Chi Ngày: Đinh Hợi\n🌙 Can Chi
+  Tháng: Canh Ngọ\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n
+ ────────────────────────
+ ────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Năm — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290627
+DTEND;VALUE=DATE:20290628
+DTSTAMP:20260423T050146Z
+UID:17ff8395-adfe-4e9b-9de5-e833e335b658@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Năm Năm Kỷ Dậu\n🔢 
+ Ngày: 16/5/2029\n✨ Can Chi Ngày: Mậu Tý\n🌙 Can Chi Tháng: Canh 
+ Ngọ\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────
+ ────────────────────────
+ ───────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20290709
+DTEND;VALUE=DATE:20290710
+DTSTAMP:20260423T050146Z
+UID:5d3a4eb2-a538-491f-baf9-42c370e3a4ec@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 28 Tháng Năm Năm Kỷ Dậu\n🔢 Ngày: 28/5/20
+ 29\n✨ Can Chi Ngày: Canh Tý\n🌙 Can Chi Tháng: Tân Mùi\n🐉 Can 
+ Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──────────
+ ────────────────────────
+ ──────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Sáu — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20290711
+DTEND;VALUE=DATE:20290712
+DTSTAMP:20260423T050146Z
+UID:26fe6190-acac-45b8-9b3e-15a5fb917eb7@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng S
+ áu Năm Kỷ Dậu\n🔢 Ngày: 1/6/2029\n✨ Can Chi Ngày: Nhâm Dần\
+ n🌙 Can Chi Tháng: Tân Mùi\n🐉 Can Chi Năm: Kỷ Dậu — Năm G
+ à (Dậu)\n────────────────────
+ ────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Sáu — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290712
+DTEND;VALUE=DATE:20290713
+DTSTAMP:20260423T050146Z
+UID:037639a8-73eb-451e-a8f2-fb1993ef23c2@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Sáu Năm Kỷ Dậu\n
+ 🔢 Ngày: 2/6/2029\n✨ Can Chi Ngày: Quý Mão\n🌙 Can Chi Tháng: T
+ ân Mùi\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n────
+ ────────────────────────
+ ────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Sáu — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290724
+DTEND;VALUE=DATE:20290725
+DTSTAMP:20260423T050146Z
+UID:dc290877-3784-49cc-8106-0275d8fd24ec@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Sáu Năm Kỷ Dậu\n🔢 Ngày: 14/6/2029\n
+ ✨ Can Chi Ngày: Ất Mão\n🌙 Can Chi Tháng: Tân Mùi\n🐉 Can Chi
+  Năm: Kỷ Dậu — Năm Gà (Dậu)\n───────────
+ ────────────────────────
+ ─────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Sáu — Ngày Vọng (Trăng Tròn)
+DTSTART;VALUE=DATE:20290725
+DTEND;VALUE=DATE:20290726
+DTSTAMP:20260423T050146Z
+UID:6772da0f-7a3a-4126-afba-64dd92c3ea0e@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. N
+ gày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Phật.
+  Nhiều người ăn chay trong ngày này.\n\n────────
+ ────────────────────────
+ ────────\n📅 ÂM LỊCH: Ngày 15 Tháng Sáu Năm Kỷ 
+ Dậu\n🔢 Ngày: 15/6/2029\n✨ Can Chi Ngày: Bính Thìn\n🌙 Can Chi
+  Tháng: Tân Mùi\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n
+ ────────────────────────
+ ────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Sáu — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290726
+DTEND;VALUE=DATE:20290727
+DTSTAMP:20260423T050146Z
+UID:801c957e-9da7-4958-ba9a-d26069212f01@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Sáu Năm Kỷ Dậu\n🔢 
+ Ngày: 16/6/2029\n✨ Can Chi Ngày: Đinh Tỵ\n🌙 Can Chi Tháng: Tân
+  Mùi\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────
+ ────────────────────────
+ ───────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20290808
+DTEND;VALUE=DATE:20290809
+DTSTAMP:20260423T050146Z
+UID:fdbfdd9b-3f8d-49fa-bc0b-70c60a5e0c1c@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 29 Tháng Sáu Năm Kỷ Dậu\n🔢 Ngày: 29/6/20
+ 29\n✨ Can Chi Ngày: Canh Ngọ\n🌙 Can Chi Tháng: Nhâm Thân\n🐉 
+ Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────────
+ ────────────────────────
+ ───────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Bảy — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20290810
+DTEND;VALUE=DATE:20290811
+DTSTAMP:20260423T050146Z
+UID:6c831064-cab5-465e-b259-ece3f1c8d904@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng B
+ ảy Năm Kỷ Dậu\n🔢 Ngày: 1/7/2029\n✨ Can Chi Ngày: Nhâm Thân
+ \n🌙 Can Chi Tháng: Nhâm Thân\n🐉 Can Chi Năm: Kỷ Dậu — Năm
+  Gà (Dậu)\n────────────────────
+ ────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Bảy — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290811
+DTEND;VALUE=DATE:20290812
+DTSTAMP:20260423T050146Z
+UID:e3c25c75-ab1f-4629-8f83-5bd0741cb12a@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Bảy Năm Kỷ Dậu\
+ n🔢 Ngày: 2/7/2029\n✨ Can Chi Ngày: Quý Dậu\n🌙 Can Chi Tháng:
+  Nhâm Thân\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──
+ ────────────────────────
+ ──────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Bảy — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290823
+DTEND;VALUE=DATE:20290824
+DTSTAMP:20260423T050146Z
+UID:af08441c-99ad-43c4-a99e-ec8a2bbf12af@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Bảy Năm Kỷ Dậu\n🔢 Ngày: 14/7/2029\n
+ ✨ Can Chi Ngày: Ất Dậu\n🌙 Can Chi Tháng: Nhâm Thân\n🐉 Can 
+ Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n☀️ Tiết Khí: Xử Thử\
+ n────────────────────────
+ ────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Lễ Vu Lan — Rằm Tháng Bảy (Xá Tội Vong Nhân)
+DTSTART;VALUE=DATE:20290824
+DTEND;VALUE=DATE:20290825
+DTSTAMP:20260423T050146Z
+UID:b0587ef2-27ab-4b50-9ce7-a842733b4a80@vietlunar2029
+CATEGORIES:TRADITIONAL,MONTHLY
+COLOR:#FB8C00
+DESCRIPTION:Lễ Vu Lan (Rằm tháng 7 âm lịch) — ngày báo hiếu 
+ cha mẹ\, tổ tiên. Đây cũng là ngày Xá Tội Vong Nhân\, cúng 
+ thí thực cô hồn. Phật tử cài hoa hồng\, đi lễ chùa cầu 
+ siêu cho vong linh.\n\n——\n🌕 Rằm Tháng Bảy — Ngày Vọng (
+ Trăng Tròn)\nNgày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn
+ . Ngày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Ph
+ ật. Nhiều người ăn chay trong ngày này.\n\n───────
+ ────────────────────────
+ ─────────\n📅 ÂM LỊCH: Ngày 15 Tháng Bảy Năm K
+ ỷ Dậu\n🔢 Ngày: 15/7/2029\n✨ Can Chi Ngày: Bính Tuất\n🌙 Ca
+ n Chi Tháng: Nhâm Thân\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (D
+ ậu)\n──────────────────────
+ ──────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Bảy — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290825
+DTEND;VALUE=DATE:20290826
+DTSTAMP:20260423T050146Z
+UID:6788d18c-5430-45f1-bdf5-9e647964a222@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Bảy Năm Kỷ Dậu\n🔢
+  Ngày: 16/7/2029\n✨ Can Chi Ngày: Đinh Hợi\n🌙 Can Chi Tháng: Nh
+ âm Thân\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───
+ ────────────────────────
+ ─────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20290906
+DTEND;VALUE=DATE:20290907
+DTSTAMP:20260423T050146Z
+UID:44bdea47-c7cb-4b3c-bda3-647a8cbc141a@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 28 Tháng Bảy Năm Kỷ Dậu\n🔢 Ngày: 28/7/2
+ 029\n✨ Can Chi Ngày: Kỷ Hợi\n🌙 Can Chi Tháng: Nhâm Thân\n🐉
+  Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n────────
+ ────────────────────────
+ ────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Tám — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20290908
+DTEND;VALUE=DATE:20290909
+DTSTAMP:20260423T050146Z
+UID:251380fc-40f8-4d3c-97be-44994e03bd13@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng T
+ ám Năm Kỷ Dậu\n🔢 Ngày: 1/8/2029\n✨ Can Chi Ngày: Tân Sửu\n
+ 🌙 Can Chi Tháng: Quý Dậu\n🐉 Can Chi Năm: Kỷ Dậu — Năm G
+ à (Dậu)\n────────────────────
+ ────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Tám — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290909
+DTEND;VALUE=DATE:20290910
+DTSTAMP:20260423T050146Z
+UID:b2e6c8f8-3dc1-490c-852e-d8cf23620731@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Tám Năm Kỷ Dậu\n
+ 🔢 Ngày: 2/8/2029\n✨ Can Chi Ngày: Nhâm Dần\n🌙 Can Chi Tháng:
+  Quý Dậu\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───
+ ────────────────────────
+ ─────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Tám — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20290921
+DTEND;VALUE=DATE:20290922
+DTSTAMP:20260423T050146Z
+UID:96bfb916-3090-4784-9b9c-ab5b1d0b2d11@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Tám Năm Kỷ Dậu\n🔢 Ngày: 14/8/2029\n
+ ✨ Can Chi Ngày: Giáp Dần\n🌙 Can Chi Tháng: Quý Dậu\n🐉 Can 
+ Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──────────
+ ────────────────────────
+ ──────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏮 Tết Trung Thu (15/8 Âm Lịch)
+DTSTART;VALUE=DATE:20290922
+DTEND;VALUE=DATE:20290923
+DTSTAMP:20260423T050146Z
+UID:ce3c5ed9-1633-4c1c-b177-db3f4be8df92@vietlunar2029
+CATEGORIES:TRADITIONAL,MONTHLY
+COLOR:#FB8C00
+DESCRIPTION:Tết Trung Thu (Rằm tháng 8 âm lịch) — Tết của th
+ iếu nhi. Trẻ em rước đèn\, phá cỗ\, ăn bánh Trung Thu. Ngư
+ ời lớn ngắm trăng\, sum họp gia đình dưới ánh trăng tròn.
+ \n\n——\n🌕 Rằm Tháng Tám — Ngày Vọng (Trăng Tròn)\nNgày 
+ Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. Ngày tốt để 
+ đi lễ chùa\, cúng gia tiên\, thắp hương Phật. Nhiều người
+  ăn chay trong ngày này.\n\n──────────────
+ ────────────────────────
+ ──\n📅 ÂM LỊCH: Ngày 15 Tháng Tám Năm Kỷ Dậu\n🔢 Ngày:
+  15/8/2029\n✨ Can Chi Ngày: Ất Mão\n🌙 Can Chi Tháng: Quý Dậu\
+ n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───────
+ ────────────────────────
+ ─────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Tám — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20290923
+DTEND;VALUE=DATE:20290924
+DTSTAMP:20260423T050146Z
+UID:d136e51c-5179-485f-a9b2-735c3edd3f1f@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Tám Năm Kỷ Dậu\n🔢 
+ Ngày: 16/8/2029\n✨ Can Chi Ngày: Bính Thìn\n🌙 Can Chi Tháng: Qu
+ ý Dậu\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n☀️ Tiế
+ t Khí: Thu Phân\n──────────────────
+ ──────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20291006
+DTEND;VALUE=DATE:20291007
+DTSTAMP:20260423T050146Z
+UID:4a7e1232-26f8-46e6-b238-678d3027a7bf@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 29 Tháng Tám Năm Kỷ Dậu\n🔢 Ngày: 29/8/20
+ 29\n✨ Can Chi Ngày: Kỷ Tỵ\n🌙 Can Chi Tháng: Quý Dậu\n🐉 Ca
+ n Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────────
+ ────────────────────────
+ ───────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Chín — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20291008
+DTEND;VALUE=DATE:20291009
+DTSTAMP:20260423T050146Z
+UID:eb4b7f8b-3c81-4d15-9aba-422433e72aba@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng C
+ hín Năm Kỷ Dậu\n🔢 Ngày: 1/9/2029\n✨ Can Chi Ngày: Tân Mùi\n
+ 🌙 Can Chi Tháng: Giáp Tuất\n🐉 Can Chi Năm: Kỷ Dậu — Năm 
+ Gà (Dậu)\n☀️ Tiết Khí: Hàn Lộ\n──────────
+ ────────────────────────
+ ──────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Chín — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20291009
+DTEND;VALUE=DATE:20291010
+DTSTAMP:20260423T050146Z
+UID:ae7c2daf-82f4-4098-9483-d136ec938c0e@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Chín Năm Kỷ Dậu\
+ n🔢 Ngày: 2/9/2029\n✨ Can Chi Ngày: Nhâm Thân\n🌙 Can Chi Tháng
+ : Giáp Tuất\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n──
+ ────────────────────────
+ ──────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Chín — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20291021
+DTEND;VALUE=DATE:20291022
+DTSTAMP:20260423T050146Z
+UID:a50dcbbf-d443-4102-8030-3fdeddb616a0@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Chín Năm Kỷ Dậu\n🔢 Ngày: 14/9/2029\n
+ ✨ Can Chi Ngày: Giáp Thân\n🌙 Can Chi Tháng: Giáp Tuất\n🐉 Ca
+ n Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────────
+ ────────────────────────
+ ───────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Chín — Ngày Vọng (Trăng Tròn)
+DTSTART;VALUE=DATE:20291022
+DTEND;VALUE=DATE:20291023
+DTSTAMP:20260423T050146Z
+UID:6f47f725-b7c7-41bb-b394-3984de1fd592@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. N
+ gày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Phật.
+  Nhiều người ăn chay trong ngày này.\n\n────────
+ ────────────────────────
+ ────────\n📅 ÂM LỊCH: Ngày 15 Tháng Chín Năm Kỷ
+  Dậu\n🔢 Ngày: 15/9/2029\n✨ Can Chi Ngày: Ất Dậu\n🌙 Can Chi
+  Tháng: Giáp Tuất\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\
+ n────────────────────────
+ ────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Chín — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20291023
+DTEND;VALUE=DATE:20291024
+DTSTAMP:20260423T050146Z
+UID:5daa0afa-fc93-4d55-86cb-f49a27cda293@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Chín Năm Kỷ Dậu\n🔢
+  Ngày: 16/9/2029\n✨ Can Chi Ngày: Bính Tuất\n🌙 Can Chi Tháng: G
+ iáp Tuất\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n☀️ Ti
+ ết Khí: Sương Giáng\n───────────────
+ ────────────────────────
+ ─
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20291104
+DTEND;VALUE=DATE:20291105
+DTSTAMP:20260423T050146Z
+UID:fbdf9d31-ece0-41f6-9ec6-b0f2b8801939@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 28 Tháng Chín Năm Kỷ Dậu\n🔢 Ngày: 28/9/2
+ 029\n✨ Can Chi Ngày: Mậu Tuất\n🌙 Can Chi Tháng: Giáp Tuất\n
+ 🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───────
+ ────────────────────────
+ ─────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Mười — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20291106
+DTEND;VALUE=DATE:20291107
+DTSTAMP:20260423T050146Z
+UID:f0f03615-8189-4435-af09-da2ee6809427@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng M
+ ười Năm Kỷ Dậu\n🔢 Ngày: 1/10/2029\n✨ Can Chi Ngày: Canh Tý
+ \n🌙 Can Chi Tháng: Giáp Tuất\n🐉 Can Chi Năm: Kỷ Dậu — Nă
+ m Gà (Dậu)\n───────────────────
+ ─────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Mười — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20291107
+DTEND;VALUE=DATE:20291108
+DTSTAMP:20260423T050146Z
+UID:90680704-7f11-4524-97d0-62084fef664e@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Mười Năm Kỷ Dậ
+ u\n🔢 Ngày: 2/10/2029\n✨ Can Chi Ngày: Tân Sửu\n🌙 Can Chi Thá
+ ng: Ất Hợi\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n☀️
+  Tiết Khí: Lập Đông\n───────────────
+ ────────────────────────
+ ─
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Mười — Chuẩn Bị Đồ Cúng Rằm
+DTSTART;VALUE=DATE:20291119
+DTEND;VALUE=DATE:20291120
+DTSTAMP:20260423T050146Z
+UID:b286297c-56a9-4473-aafd-ef0ae6fcd63a@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Mười Năm Kỷ Dậu\n🔢 Ngày: 14/10/202
+ 9\n✨ Can Chi Ngày: Quý Sửu\n🌙 Can Chi Tháng: Ất Hợi\n🐉 Ca
+ n Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n─────────
+ ────────────────────────
+ ───────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Mười — Ngày Vọng (Trăng Tròn)
+DTSTART;VALUE=DATE:20291120
+DTEND;VALUE=DATE:20291121
+DTSTAMP:20260423T050146Z
+UID:cfdfd51c-e708-4e2c-a2c1-82c727e13626@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. N
+ gày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Phật.
+  Nhiều người ăn chay trong ngày này.\n\n────────
+ ────────────────────────
+ ────────\n📅 ÂM LỊCH: Ngày 15 Tháng Mười Năm K
+ ỷ Dậu\n🔢 Ngày: 15/10/2029\n✨ Can Chi Ngày: Giáp Dần\n🌙 Ca
+ n Chi Tháng: Ất Hợi\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậ
+ u)\n───────────────────────
+ ─────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Mười — Cúng Cô Hồn & Thần Tài
+DTSTART;VALUE=DATE:20291121
+DTEND;VALUE=DATE:20291122
+DTSTAMP:20260423T050146Z
+UID:52903699-e334-4c03-a862-b2b3d03f25ed@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Mười Năm Kỷ Dậu\n
+ 🔢 Ngày: 16/10/2029\n✨ Can Chi Ngày: Ất Mão\n🌙 Can Chi Tháng:
+  Ất Hợi\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───
+ ────────────────────────
+ ─────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày Cuối Tháng — Chuẩn Bị Đồ Cúng Mùng 1
+DTSTART;VALUE=DATE:20291203
+DTEND;VALUE=DATE:20291204
+DTSTAMP:20260423T050146Z
+UID:22ea999b-fd83-40fc-b424-ca297221d10d@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày cuối cùng của tháng âm lịch: Ngày mai là Mùn
+ g 1. Hãy chuẩn bị lễ vật cúng Mùng 1: hoa tươi\, quả\, nhan
+ g đèn\, vàng mã.\n\n────────────────
+ ────────────────────────\n
+ 📅 ÂM LỊCH: Ngày 28 Tháng Mười Năm Kỷ Dậu\n🔢 Ngày: 28/1
+ 0/2029\n✨ Can Chi Ngày: Đinh Mão\n🌙 Can Chi Tháng: Ất Hợi\n
+ 🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───────
+ ────────────────────────
+ ─────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌑 Mùng 1 Tháng Mười Một — Ngày Sóc (Trăng Non)
+DTSTART;VALUE=DATE:20291205
+DTEND;VALUE=DATE:20291206
+DTSTAMP:20260423T050146Z
+UID:05235fe9-b7dd-4503-8030-6ca7f16ce895@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày đầu tiên của tháng âm lịch — Ngày Sóc (New
+  Moon). Ngày tốt để đi lễ chùa\, cúng thần linh\, thắp hư
+ ơng gia tiên. Nhiều người ăn chay trong ngày này.\n\n───
+ ────────────────────────
+ ─────────────\n📅 ÂM LỊCH: Mùng 1 Tháng M
+ ười Một Năm Kỷ Dậu\n🔢 Ngày: 1/11/2029\n✨ Can Chi Ngày: K
+ ỷ Tỵ\n🌙 Can Chi Tháng: Ất Hợi\n🐉 Can Chi Năm: Kỷ Dậu 
+ — Năm Gà (Dậu)\n─────────────────
+ ───────────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Mùng 2 Tháng Mười Một — Cúng Cô Hồn & Thần 
+ Tài
+DTSTART;VALUE=DATE:20291206
+DTEND;VALUE=DATE:20291207
+DTSTAMP:20260423T050146Z
+UID:6d4501d4-303a-4799-bc77-53fb36eb5116@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Mùng 2 hàng tháng: Ngày cúng Cô Hồn và Thần T
+ ài cho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối g
+ ạo\, tiền vàng mã\, nhang đèn.\n\n──────────
+ ────────────────────────
+ ──────\n📅 ÂM LỊCH: Mùng 2 Tháng Mười Một Năm K
+ ỷ Dậu\n🔢 Ngày: 2/11/2029\n✨ Can Chi Ngày: Canh Ngọ\n🌙 Can 
+ Chi Tháng: Ất Hợi\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)
+ \n────────────────────────
+ ────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚠️ Ngày 14 Tháng Mười Một — Chuẩn Bị Đồ Cúng 
+ Rằm
+DTSTART;VALUE=DATE:20291218
+DTEND;VALUE=DATE:20291219
+DTSTAMP:20260423T050146Z
+UID:87f39b96-1e43-4b0c-abee-1d1b10d501e9@vietlunar2029
+CATEGORIES:REMINDER
+COLOR:#FDD835
+DESCRIPTION:Ngày 14 âm lịch: Ngày mai là Rằm (15 âm). Hãy chuẩ
+ n bị lễ vật cúng Rằm: hoa tươi\, quả\, xôi chè\, nhang đè
+ n\, vàng mã.\n\n──────────────────
+ ──────────────────────\n📅 
+ ÂM LỊCH: Ngày 14 Tháng Mười Một Năm Kỷ Dậu\n🔢 Ngày: 14/
+ 11/2029\n✨ Can Chi Ngày: Nhâm Ngọ\n🌙 Can Chi Tháng: Bính Tý\n
+ 🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n───────
+ ────────────────────────
+ ─────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🌕 Rằm Tháng Mười Một — Ngày Vọng (Trăng Tròn)
+DTSTART;VALUE=DATE:20291219
+DTEND;VALUE=DATE:20291220
+DTSTAMP:20260423T050146Z
+UID:f6b401cc-2759-4474-a7f4-45711d8ac116@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày Rằm (15 âm lịch) — Ngày Vọng\, trăng tròn. N
+ gày tốt để đi lễ chùa\, cúng gia tiên\, thắp hương Phật.
+  Nhiều người ăn chay trong ngày này.\n\n────────
+ ────────────────────────
+ ────────\n📅 ÂM LỊCH: Ngày 15 Tháng Mười Một N
+ ăm Kỷ Dậu\n🔢 Ngày: 15/11/2029\n✨ Can Chi Ngày: Quý Mùi\n🌙
+  Can Chi Tháng: Bính Tý\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (D
+ ậu)\n──────────────────────
+ ──────────────────
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🕯️ Ngày 16 Tháng Mười Một — Cúng Cô Hồn & Thần
+  Tài
+DTSTART;VALUE=DATE:20291220
+DTEND;VALUE=DATE:20291221
+DTSTAMP:20260423T050146Z
+UID:b721debe-284a-4be5-a3d7-b0e49b51fafb@vietlunar2029
+CATEGORIES:MONTHLY
+COLOR:#1E88E5
+DESCRIPTION:Ngày 16 hàng tháng: Ngày cúng Cô Hồn và Thần Tài c
+ ho người kinh doanh. Chuẩn bị lễ vật: hoa quả\, muối gạo\
+ , tiền vàng mã\, nhang đèn.\n\n────────────
+ ────────────────────────
+ ────\n📅 ÂM LỊCH: Ngày 16 Tháng Mười Một Năm Kỷ D
+ ậu\n🔢 Ngày: 16/11/2029\n✨ Can Chi Ngày: Giáp Thân\n🌙 Can Chi
+  Tháng: Bính Tý\n🐉 Can Chi Năm: Kỷ Dậu — Năm Gà (Dậu)\n
+ ────────────────────────
+ ────────────────
+END:VEVENT
+END:VCALENDAR
