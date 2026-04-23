@@ -29,7 +29,7 @@ CATEGORY_COLOR: dict[str, str] = {
     'TRADITIONAL': '#FB8C00',   # Cam — lễ truyền thống
     'MONTHLY':     '#1E88E5',   # Xanh dương — định kỳ hàng tháng
     'REMINDER':    '#FDD835',   # Vàng — nhắc nhở
-    'DAILY':       '#43A047',   # Xanh lá — thông tin ngày âm lịch (như ảnh)
+    'DAILY':       '#A3BE8C',   # Sage Green — thông tin ngày âm lịch
 }
 
 
@@ -123,8 +123,9 @@ def _build_ical_event(
         h_name = hi.name.replace('{m}', lunar.month_name_vn)
         h_desc = hi.description.replace('{m}', lunar.month_name_vn)
         
-        prefix = "📍" if hi.category in ('NATIONAL', 'TRADITIONAL') else "🔹"
-        if hi.category == 'DAILY': prefix = "📅"
+        # Prefixes phong cách Nature
+        prefix = "🌸" if hi.category in ('NATIONAL', 'TRADITIONAL') else "🍃"
+        if hi.category == 'DAILY': prefix = "🌱"
         
         desc_parts.append(f'{prefix} {h_name}\n{h_desc}')
         if i < len(events) - 1:

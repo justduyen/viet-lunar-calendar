@@ -4,7 +4,7 @@
 
 ![Update Lunar Calendar ICS](https://github.com/justduyen/viet-lunar-calendar/actions/workflows/main.yml/badge.svg)
 
-This project generates `.ics` files containing Vietnamese Lunar Calendar information (including traditional holidays, Can Chi, and Solar Terms) from **2026 to 2031** (5-year rolling). These files can be easily imported into Google Calendar, Apple Calendar, or Outlook.
+This **Nature-themed** 🌿 project generates `.ics` files containing Vietnamese Lunar Calendar information (including traditional holidays, Can Chi, and Solar Terms) from **2026 to 2031** (5-year rolling). These files can be easily imported into Google Calendar, Apple Calendar, or Outlook.
 
 ---
 
@@ -12,11 +12,11 @@ This project generates `.ics` files containing Vietnamese Lunar Calendar informa
 
 | Feature | Description |
 |---|---|
-| **High Accuracy** | Uses the `lunar-python` library based on precise astronomical algorithms (Jean Meeus). |
-| **All-in-One** | Includes Lunar holidays, Vietnamese National holidays, and International days (Valentine, 8/3, etc.). |
-| **Clean UI** | Technical details (Can Chi, Solar Terms) are moved to the Description to keep the titles clean. |
-| **Daily Display** | Shows the lunar date for every single day (e.g., `15/7`) as a green bar (as requested). |
-| **Automation** | Integrated with GitHub Actions to automatically roll the calendar every month. |
+| **🌿 High Accuracy** | Uses the `lunar-python` library based on precise astronomical algorithms (Jean Meeus). |
+| **🌸 All-in-One** | Includes Lunar holidays, Vietnamese National holidays, and International days (Valentine, 8/3, etc.). |
+| **🍃 Clean UI** | Technical details (Can Chi, Solar Terms) are moved to the Description to keep the titles clean. |
+| **🌱 Daily Display** | Shows the lunar date for every single day (e.g., `15/7`) with a soft green bar. |
+| **⚙️ Automation** | Integrated with GitHub Actions to automatically roll the calendar every month. |
 
 ---
 

@@ -4,18 +4,19 @@
 
 ![Update Lunar Calendar ICS](https://github.com/justduyen/viet-lunar-calendar/actions/workflows/main.yml/badge.svg)
 
-Dự án này giúp bạn tạo các file `.ics` chứa thông tin lịch âm Việt Nam (bao gồm ngày lễ truyền thống, Can Chi, Tiết Khí) từ năm **2026 đến 2060**. Các file này có thể dễ dàng nhập (import) vào Google Calendar, Apple Calendar, hoặc Outlook.
+Dự án này mang phong cách **Nature** 🌿 giúp bạn tạo các file `.ics` chứa thông tin lịch âm Việt Nam (bao gồm ngày lễ truyền thống, Can Chi, Tiết Khí) từ năm **2026 đến 2060**. Các file này có thể dễ dàng nhập (import) vào Google Calendar, Apple Calendar, hoặc Outlook.
 
 ---
 
 ## ✨ Tính năng nổi bật
 
-| Tính năng | Chi tiết |
+| Tính năng | Mô tả |
 |---|---|
-| **Độ chính xác cao** | Sử dụng thư viện `lunar-python` dựa trên thuật toán thiên văn học chuẩn xác. |
-| **Múi giờ chuẩn** | Được thiết kế riêng cho múi giờ Việt Nam (GMT+7 - `Asia/Ho_Chi_Minh`). |
-| **Giao diện sạch sẽ** | Can Chi và Tiết Khí được đưa vào phần Mô tả (Description), giúp tiêu đề lịch gọn gàng. |
-| **Sự kiện hàng tháng** | Tự động nhắc Mùng 1 🌑, Rằm 🌕, Cúng Thần Tài/Cô Hồn (mùng 2 & 16), và nhắc chuẩn bị lễ vật. |
+| **🌿 Độ chính xác cao** | Sử dụng thư viện `lunar-python` dựa trên thuật toán Jean Meeus. |
+| **🌸 Tất cả trong một** | Tích hợp Lễ Âm lịch, Lễ Quốc gia và các ngày quốc tế (Valentine, 8/3...). |
+| **🍃 Giao diện tối giản** | Các thông tin kỹ thuật được đưa vào phần Mô tả để tiêu đề luôn sạch sẽ. |
+| **🌱 Hiển thị hàng ngày** | Hiện ngày âm lịch (dạng `15/7`) hàng ngày với màu xanh lá dịu mát. |
+| **⚙️ Tự động hóa** | Tích hợp GitHub Actions để tự động "cuốn" lịch mỗi tháng. |
 | **Ngày lễ truyền thống** | Đầy đủ các dịp Tết Nguyên Đán, Giỗ Tổ Hùng Vương, Vu Lan, Trung Thu, v.v. |
 | **Tự động hóa** | Tích hợp GitHub Actions để tự động cập nhật lịch định kỳ. |
 
