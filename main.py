@@ -13,7 +13,7 @@ import argparse
 import sys
 import time
 import zipfile
-from datetime import datetime
+from datetime import datetime, date
 from pathlib import Path
 
 try:
@@ -103,12 +103,16 @@ def main():
     )
     args = parser.parse_args()
 
-    # Xử lý tham số năm
+    # Xử lý tham số năm (Mặc định: Năm hiện tại -> +10 năm)
+    current_year = date.today().year
+    
     if args.year:
         start_year = end_year = args.year
     else:
-        start_year = args.start
-        end_year   = args.end
+        # Nếu người dùng không nhập --start, mặc định lấy năm hiện tại
+        start_year = args.start if 'start' in [a.dest for a in parser._actions if args.start != START_YEAR] else current_year
+        # Nếu không nhập --end, mặc định lấy start + 10
+        end_year = args.end if 'end' in [a.dest for a in parser._actions if args.end != END_YEAR] else (start_year + 10)
 
     if start_year > end_year:
         print(f'❌ Lỗi: --start ({start_year}) phải nhỏ hơn hoặc bằng --end ({end_year})')
