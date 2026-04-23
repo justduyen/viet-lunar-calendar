@@ -8,11 +8,14 @@ Cách dùng:
     python main.py --split                  # Tạo thêm các file riêng lẻ cho từng năm
     python main.py --start 2026 --end 2030  # Tạo lịch cho một khoảng năm tùy chỉnh
     python main.py --year 2027              # Chỉ tạo lịch cho một năm cụ thể
+
+Lưu ý: File 'viet_lunar_latest.ics' luôn được tạo để phục vụ link URL cố định.
 """
 import argparse
 import sys
 import time
 import zipfile
+import shutil
 from datetime import datetime, date
 from pathlib import Path
 
@@ -109,9 +112,7 @@ def main():
     if args.year:
         start_year = end_year = args.year
     else:
-        # Nếu người dùng không nhập --start, mặc định lấy năm hiện tại
         start_year = args.start if 'start' in [a.dest for a in parser._actions if args.start != START_YEAR] else current_year
-        # Nếu không nhập --end, mặc định lấy start + 5 (Theo yêu cầu tối ưu 5 năm)
         end_year = args.end if 'end' in [a.dest for a in parser._actions if args.end != END_YEAR] else (start_year + 5)
 
     if start_year > end_year:
@@ -164,9 +165,17 @@ def main():
               f'({end_year - start_year + 1} năm)...')
         t0 = time.time()
         cal = gen.generate_range(start_year, end_year)
+        
+        # Save labeled file
         fname = output_path / f'viet_lunar_{suffix}.ics'
         gen.save(cal, fname)
         total_files.append(fname)
+        
+        # Save latest link copy
+        latest_fname = output_path / 'viet_lunar_latest.ics'
+        shutil.copy(fname, latest_fname)
+        total_files.append(latest_fname)
+        
         elapsed = time.time() - t0
         print(f'  ✅ Hoàn thành trong {elapsed:.1f}s')
 
