@@ -142,10 +142,18 @@ def _build_ical_event(
     cats = list({hi.category for hi, _ in events})
     event.add('categories', cats)
 
-    # Màu (Apple Calendar hỗ trợ, Google Calendar bỏ qua)
-    color_cat = primary.category
-    color_hex = CATEGORY_COLOR.get(color_cat, '#1E88E5')
-    event.add('color', color_hex)  # RFC 7986
+    # Màu sắc: Ưu tiên màu của lễ quan trọng nhất
+    priority = ['NATIONAL', 'TRADITIONAL', 'MONTHLY', 'REMINDER', 'DAILY']
+    active_cats = {hi.category for hi, _ in events}
+    
+    selected_cat = 'DAILY'
+    for cat in priority:
+        if cat in active_cats:
+            selected_cat = cat
+            break
+            
+    color_hex = CATEGORY_COLOR.get(selected_cat, '#1E88E5')
+    event.add('color', color_hex)  # RFC 7986 (Hint cho Apple Calendar)
 
     # Đánh dấu ngày nghỉ chính thức
     if any(hi.is_public_holiday for hi, _ in events):
