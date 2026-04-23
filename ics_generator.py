@@ -29,6 +29,7 @@ CATEGORY_COLOR: dict[str, str] = {
     'TRADITIONAL': '#FB8C00',   # Cam — lễ truyền thống
     'MONTHLY':     '#1E88E5',   # Xanh dương — định kỳ hàng tháng
     'REMINDER':    '#FDD835',   # Vàng — nhắc nhở
+    'DAILY':       '#43A047',   # Xanh lá — thông tin ngày âm lịch (như ảnh)
 }
 
 
@@ -48,32 +49,35 @@ def _collect_events_for_day(
     m = lunar.lunar_month_abs
     day = lunar.lunar_day
 
-    # ── 1. Ngày lễ cố định (ưu tiên cao nhất) ───────────────
+    # ── 1. Thông tin ngày âm lịch HÀNG NGÀY (Mục tiêu chính) ──
+    # Định dạng: "Ngày/Tháng" (Ví dụ: 15/7)
+    daily_info = HolidayInfo(
+        name=f'{day}/{m}',
+        description=f'Ngày {day} tháng {m} âm lịch.',
+        category='DAILY'
+    )
+    # Luôn thêm thông tin ngày âm lịch
+    results.append((daily_info, True))
+
+    # ── 2. Ngày lễ cố định ──────────────────────────────────
     fixed = FIXED_LUNAR_HOLIDAYS.get((m, day))
     if fixed:
-        results.append((fixed, True))
+        results.append((fixed, False)) # Để info ngày làm primary summary
 
-    # ── 2. Đêm Giao Thừa: ngày cuối tháng 12 âm ────────────
+    # ── 3. Đêm Giao Thừa ────────────────────────────────────
     if m == 12 and is_last_day_of_lunar_month(d):
-        # Không trùng với ngày 30/12 đã cố định (nếu tháng đủ)
         if (12, day) not in FIXED_LUNAR_HOLIDAYS:
-            results.append((GIAO_THUA, not bool(fixed)))
+            results.append((GIAO_THUA, False))
 
-    # ── 3. Sự kiện hàng tháng ───────────────────────────────
+    # ── 4. Sự kiện hàng tháng ───────────────────────────────
     monthly = MONTHLY_EVENTS.get(day)
     if monthly:
-        # Nếu ngày này đã có lễ cố định quan trọng hơn → phụ trợ
-        is_primary_monthly = not bool(fixed)
-        results.append((monthly, is_primary_monthly))
+        results.append((monthly, False))
 
-    # ── 4. Nhắc chuẩn bị Mùng 1: ngày TRƯỚC ngày cuối tháng ──
-    #    Nếu tháng đủ (30 ngày), nhắc vào ngày 29.
-    #    Nếu tháng thiếu (29 ngày), nhắc vào ngày 28.
+    # ── 5. Nhắc chuẩn bị Mùng 1 ─────────────────────────────
     tomorrow = d + timedelta(days=1)
     if is_last_day_of_lunar_month(tomorrow) and m != 12:
-        # Tránh trùng lặp với các sự kiện định kỳ khác nếu có
-        is_primary_remind = not bool(fixed) and not bool(monthly)
-        results.append((REMIND_MUNG1, is_primary_remind))
+        results.append((REMIND_MUNG1, False))
 
     return results
 
@@ -95,32 +99,32 @@ def _build_ical_event(
     primary_events   = [e for e, p in events if p]
     secondary_events = [e for e, p in events if not p]
 
-    # Tiêu đề chính
-    primary = primary_events[0] if primary_events else secondary_events[0]
+    # Tiêu đề chính (Ngày/Tháng âm lịch)
+    primary = primary_events[0]
     summary = primary.name
     
-    # Điền tên tháng vào tiêu đề nếu có placeholder {m} (Dành cho sự kiện định kỳ hàng tháng)
-    if '{m}' in summary:
-        summary = summary.replace('{m}', lunar.month_name_vn)
+    # Nếu có ngày lễ quan trọng, hãy đưa tên lễ vào Summary luôn cho dễ nhìn
+    # Ví dụ: "1/1 🧧 Tết Nguyên Đán"
+    important_holidays = [e for e in secondary_events if e.category in ('NATIONAL', 'TRADITIONAL')]
+    if important_holidays:
+        summary = f"{summary} • {important_holidays[0].name}"
 
     # ── Xây dựng description ────────────────────────────────
     desc_parts: list[str] = []
 
-    # Mô tả sự kiện chính
-    p_desc = primary.description
-    if '{m}' in p_desc:
-        p_desc = p_desc.replace('{m}', lunar.month_name_vn)
-    desc_parts.append(p_desc)
-
-    # Các sự kiện phụ (nếu có)
-    for hi in secondary_events:
+    # Danh sách tất cả sự kiện trong ngày
+    for i, (hi, _) in enumerate(events):
         h_name = hi.name
         if '{m}' in h_name:
             h_name = h_name.replace('{m}', lunar.month_name_vn)
         h_desc = hi.description
         if '{m}' in h_desc:
             h_desc = h_desc.replace('{m}', lunar.month_name_vn)
-        desc_parts.append(f'\n——\n{h_name}\n{h_desc}')
+        
+        prefix = "📌" if i == 0 else "🔹"
+        desc_parts.append(f'{prefix} {h_name}\n{h_desc}')
+        if i < len(events) - 1:
+            desc_parts.append('──')
 
     # Thêm footer thông tin âm lịch
     desc_parts.append('\n' + lunar.build_description_footer())
