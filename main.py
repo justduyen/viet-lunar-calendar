@@ -111,8 +111,8 @@ def main():
     else:
         # Nếu người dùng không nhập --start, mặc định lấy năm hiện tại
         start_year = args.start if 'start' in [a.dest for a in parser._actions if args.start != START_YEAR] else current_year
-        # Nếu không nhập --end, mặc định lấy start + 10
-        end_year = args.end if 'end' in [a.dest for a in parser._actions if args.end != END_YEAR] else (start_year + 10)
+        # Nếu không nhập --end, mặc định lấy start + 5 (Theo yêu cầu tối ưu 5 năm)
+        end_year = args.end if 'end' in [a.dest for a in parser._actions if args.end != END_YEAR] else (start_year + 5)
 
     if start_year > end_year:
         print(f'❌ Lỗi: --start ({start_year}) phải nhỏ hơn hoặc bằng --end ({end_year})')

@@ -7,14 +7,37 @@ from dataclasses import dataclass
 @dataclass
 class HolidayInfo:
     name: str             # Tên ngày lễ (có emoji)
-    description: str      # Mô tả / ý nghĩa
-    category: str         # 'NATIONAL' | 'TRADITIONAL' | 'MONTHLY' | 'REMINDER'
+    description: str = '' # Mô tả / ý nghĩa
+    category: str = 'TRADITIONAL' # 'NATIONAL' | 'TRADITIONAL' | 'MONTHLY' | 'REMINDER'
     is_public_holiday: bool = False  # Ngày nghỉ lễ chính thức
 
 
 # ──────────────────────────────────────────────────────────────
-# 1. NGÀY LỄ CỐ ĐỊNH THEO ÂM LỊCH
-#    Key: (tháng_âm, ngày_âm)
+# DANH SÁCH NGÀY LỄ DƯƠNG LỊCH (SOLAR)
+# ──────────────────────────────────────────────────────────────
+FIXED_SOLAR_HOLIDAYS: dict[tuple[int, int], HolidayInfo] = {
+    (1, 1):   HolidayInfo(name='🎆 Tết Dương Lịch', is_public_holiday=True, category='NATIONAL', description='Khởi đầu năm mới Dương lịch.'),
+    (2, 14):  HolidayInfo(name='💖 Lễ Tình Nhân (Valentine)', category='TRADITIONAL', description='Ngày tôn vinh tình yêu.'),
+    (3, 8):   HolidayInfo(name='👩‍🦰 Quốc Tế Phụ Nữ', category='TRADITIONAL', description='Ngày tôn vinh phụ nữ toàn thế giới.'),
+    (3, 26):  HolidayInfo(name='🚩 Ngày Thành Lập Đoàn TNCS HCM', category='TRADITIONAL'),
+    (4, 30):  HolidayInfo(name='🇻🇳 Ngày Giải Phóng Miền Nam', is_public_holiday=True, category='NATIONAL', description='Ngày thống nhất đất nước.'),
+    (5, 1):   HolidayInfo(name='🛠️ Quốc Tế Lao Động', is_public_holiday=True, category='NATIONAL', description='Ngày hội của người lao động.'),
+    (5, 19):  HolidayInfo(name='🎂 Ngày Sinh Bác Hồ', category='NATIONAL', description='Kỷ niệm ngày sinh Chủ tịch Hồ Chí Minh.'),
+    (6, 1):   HolidayInfo(name='👶 Quốc Tế Thiếu Nhi', category='TRADITIONAL'),
+    (6, 28):  HolidayInfo(name='🏠 Ngày Gia Đình Việt Nam', category='TRADITIONAL'),
+    (7, 27):  HolidayInfo(name='🕯️ Ngày Thương Binh Liệt Sĩ', category='TRADITIONAL'),
+    (8, 19):  HolidayInfo(name='⚔️ Ngày Cách Mạng Tháng Tám', category='TRADITIONAL'),
+    (9, 2):   HolidayInfo(name='🇻🇳 Quốc Khánh Việt Nam', is_public_holiday=True, category='NATIONAL', description='Kỷ niệm ngày thành lập nước Việt Nam Dân chủ Cộng hòa.'),
+    (10, 10): HolidayInfo(name='🏰 Ngày Giải Phóng Thủ Đô', category='TRADITIONAL'),
+    (10, 20): HolidayInfo(name='👩 Ngày Phụ Nữ Việt Nam', category='TRADITIONAL'),
+    (11, 20): HolidayInfo(name='👨‍🏫 Ngày Nhà Giáo Việt Nam', category='TRADITIONAL', description='Ngày tri ân các thầy cô giáo.'),
+    (12, 22): HolidayInfo(name='🎖️ Ngày Thành Lập QĐND VN', category='TRADITIONAL'),
+    (12, 25): HolidayInfo(name='🎄 Lễ Giáng Sinh (Noel)', category='TRADITIONAL'),
+}
+
+
+# ──────────────────────────────────────────────────────────────
+# DANH SÁCH NGÀY LỄ ÂM LỊCH (LUNAR)
 # ──────────────────────────────────────────────────────────────
 FIXED_LUNAR_HOLIDAYS: dict[tuple, HolidayInfo] = {
 

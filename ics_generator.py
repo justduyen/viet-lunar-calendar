@@ -15,7 +15,7 @@ from config import (
     PRODID, CALENDAR_VERSION, TIMEZONE,
 )
 from holidays import (
-    FIXED_LUNAR_HOLIDAYS, MONTHLY_EVENTS,
+    FIXED_SOLAR_HOLIDAYS, FIXED_LUNAR_HOLIDAYS, MONTHLY_EVENTS,
     GIAO_THUA, REMIND_MUNG1, HolidayInfo,
 )
 from lunar_converter import to_lunar, is_last_day_of_lunar_month, LunarDate
@@ -49,20 +49,23 @@ def _collect_events_for_day(
     m = lunar.lunar_month_abs
     day = lunar.lunar_day
 
-    # ── 1. Thông tin ngày âm lịch HÀNG NGÀY (Mục tiêu chính) ──
-    # Định dạng: "Ngày/Tháng" (Ví dụ: 15/7)
+    # ── 1. Thông tin ngày âm lịch HÀNG NGÀY ──────────────────
     daily_info = HolidayInfo(
         name=f'{day}/{m}',
         description=f'Ngày {day} tháng {m} âm lịch.',
         category='DAILY'
     )
-    # Luôn thêm thông tin ngày âm lịch
     results.append((daily_info, True))
 
-    # ── 2. Ngày lễ cố định ──────────────────────────────────
+    # ── 2. Ngày lễ DƯƠNG LỊCH ───────────────────────────────
+    solar_h = FIXED_SOLAR_HOLIDAYS.get((d.month, d.day))
+    if solar_h:
+        results.append((solar_h, False))
+
+    # ── 3. Ngày lễ ÂM LỊCH ──────────────────────────────────
     fixed = FIXED_LUNAR_HOLIDAYS.get((m, day))
     if fixed:
-        results.append((fixed, False)) # Để info ngày làm primary summary
+        results.append((fixed, False))
 
     # ── 3. Đêm Giao Thừa ────────────────────────────────────
     if m == 12 and is_last_day_of_lunar_month(d):
