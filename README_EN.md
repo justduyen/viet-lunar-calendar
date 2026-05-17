@@ -1,8 +1,7 @@
 # 🌸 Lịch Âm Việt Nam Tự Động Đồng Bộ — Pinkie Lunar Calendar 🌸
 
 [Tiếng Việt](README.md) | **English**
-
-![Update Lunar Calendar ICS](https://github.com/justduyen/viet-lunar-calendar/actions/workflows/main.yml/badge.svg)
+![Update Lunar Calendar ICS](https://github.com/justduyen/lich-am-viet-nam/actions/workflows/main.yml/badge.svg)
 
 > [!quote] **Motto of JustDuyen**
 > *For all the cute girls who aren't super tech-savvy and the sweetest, gentlest boys out there~ (´｡• ᵕ •｡`) ♡*
@@ -21,7 +20,7 @@ Featuring a gorgeous, glassmorphic Web GUI styled after the **Pinkie Suite**, th
 Simply copy the raw subscription URL below:
 
 📌 **Subscription URL:** 
-`https://raw.githubusercontent.com/justduyen/viet-lunar-calendar/main/output/viet_lunar_latest.ics`
+`https://raw.githubusercontent.com/justduyen/lich-am-viet-nam/main/output/viet_lunar_latest.ics`
 
 ### 📱 How to Subscribe on Your Devices:
 

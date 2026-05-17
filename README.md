@@ -1,8 +1,7 @@
 # 🌸 Lịch Âm Việt Nam Tự Động Đồng Bộ — Pinkie Lunar Calendar 🌸
 
 **Tiếng Việt** | [English](README_EN.md)
-
-![Update Lunar Calendar ICS](https://github.com/justduyen/viet-lunar-calendar/actions/workflows/main.yml/badge.svg)
+![Update Lunar Calendar ICS](https://github.com/justduyen/lich-am-viet-nam/actions/workflows/main.yml/badge.svg)
 
 > [!quote] **Motto của JustDuyen**
 > *Dành riêng cho những bạn nữ đáng yêu không rành công nghệ và những bạn nam ngọt ngào nhất ngoài kia~ (´｡• ᵕ •｡`) ♡*
@@ -21,7 +20,7 @@ Lịch bao gồm đầy đủ thông tin: các ngày lễ truyền thống Việ
 Bạn chỉ cần sao chép (copy) đường dẫn đăng ký vĩnh viễn dưới đây:
 
 📌 **Đường dẫn đăng ký:** 
-`https://raw.githubusercontent.com/justduyen/viet-lunar-calendar/main/output/viet_lunar_latest.ics`
+`https://raw.githubusercontent.com/justduyen/lich-am-viet-nam/main/output/viet_lunar_latest.ics`
 
 ### 📱 Cách tích hợp vào thiết bị của bạn:
 
