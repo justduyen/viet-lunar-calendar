@@ -1,59 +1,69 @@
-# 🌙 Lịch Âm Việt Nam — Công cụ tạo file iCalendar
+# 🌸 Pinkie Lunar Calendar — Lịch Âm Việt Nam 🌸
 
-**Tiếng Việt** | [English](1%20dự%20án/viet-lunar-calendar/README_EN.md)
+**Tiếng Việt** | [English](README_EN.md)
 
 ![Update Lunar Calendar ICS](https://github.com/justduyen/viet-lunar-calendar/actions/workflows/main.yml/badge.svg)
 
-Dự án này mang phong cách **Nature** 🌿 giúp bạn tạo các file `.ics` chứa thông tin lịch âm Việt Nam (bao gồm ngày lễ truyền thống, Can Chi, Tiết Khí) từ năm **2026 đến 2060**. Các file này có thể dễ dàng nhập (import) vào Google Calendar, Apple Calendar, hoặc Outlook.
+> [!quote] **Brand Motto**
+> *For all the cute girls who aren't super tech-savvy and the sweetest, gentlest boys out there~ (´｡• ᵕ •｡`) ♡*
+> — **JustDuyen**
+
+Chào mừng bạn đến với **Pinkie Lunar Calendar**! Đây là một ứng dụng Web GUI & CLI siêu dễ thương, được thiết kế tỉ mỉ theo tông màu hồng pastel ngọt ngào của hệ sinh thái **Pinkie Suite** nhằm giúp bạn tạo ra các tệp `.ics` Lịch Âm Việt Nam (bao gồm ngày lễ truyền thống, Can Chi, Tiết Khí) từ năm **2026 đến 2060** cực kỳ trực quan và nhanh chóng!
+
+Các tệp lịch tạo ra có thể dễ dàng nhập (import) vào Google Calendar, Apple Calendar (iPhone/Macbook) hoặc Microsoft Outlook chỉ trong 1-Click!
 
 ---
 
-## ✨ Tính năng nổi bật
+## ✨ Các Tính Năng Nổi Bật Mang Đậm Phong Cách Pinkie
 
-| Tính năng | Mô tả |
-|---|---|
-| **🌿 Độ chính xác cao** | Sử dụng thư viện `lunar-python` dựa trên thuật toán Jean Meeus. |
-| **🌸 Tất cả trong một** | Tích hợp Lễ Âm lịch, Lễ Quốc gia và các ngày quốc tế (Valentine, 8/3...). |
-| **🍃 Giao diện tối giản** | Các thông tin kỹ thuật được đưa vào phần Mô tả để tiêu đề luôn sạch sẽ. |
-| **🌱 Hiển thị hàng ngày** | Hiện ngày âm lịch (dạng `15/7`) hàng ngày với màu xanh lá dịu mát. |
-| **⚙️ Tự động hóa** | Tích hợp GitHub Actions để tự động "cuốn" lịch mỗi tháng. |
-| **Ngày lễ truyền thống** | Đầy đủ các dịp Tết Nguyên Đán, Giỗ Tổ Hùng Vương, Vu Lan, Trung Thu, v.v. |
-| **Tự động hóa** | Tích hợp GitHub Actions để tự động cập nhật lịch định kỳ. |
+| Tính năng | Biểu tượng | Mô tả chi tiết |
+| :--- | :---: | :--- |
+| **🌸 Pinkie Web Dashboard** | `🧸` | Giao diện Web kính mờ (glassmorphic) cực kỳ lung linh, hỗ trợ thanh trượt chọn năm, bo góc mềm mại và nút chuyển chế độ **Sáng/Tối** siêu xinh. |
+| **💖 Độ chính xác tuyệt đối** | `✨` | Lập trình dựa trên thuật toán thiên văn Jean Meeus của thư viện `lunar-python` chuẩn xác. |
+| **🎀 Thiết kế tối giản, sạch sẽ** | `🍃` | Toàn bộ thông tin Can Chi, Tiết Khí được đưa vào phần mô tả sự kiện (Description) giúp tiêu đề lịch luôn gọn gàng, trang nhã. |
+| **🐾 Hiển thị âm lịch hàng ngày** | `🌱` | Hiển thị ngày âm lịch dạng `15/7` hàng ngày với màu hồng pastel dịu mắt trên ứng dụng lịch của bạn. |
+| **⚙️ Tự động hóa hoàn toàn** | `🔮` | Tích hợp **GitHub Actions** để tự động cập nhật lịch định kỳ mỗi tháng mà bạn không cần cấu hình lại. |
 
 ---
 
-## 🚀 Cài đặt (Installation)
+## 🚀 Hướng Dẫn Cài Đặt (Installation)
 
-Yêu cầu máy tính đã cài đặt **Python 3.8+**.
+Ứng dụng yêu cầu máy tính của bạn đã cài đặt **Python 3.8+**.
 
 ```bash
-# 1. Tạo môi trường ảo (khuyến nghị)
-python -m venv .venv
+# 1. Di chuyển vào thư mục dự án
+cd "D:\Obsidian\1 dự án\Mini Apps\viet-lunar-calendar"
+
+# 2. Kích hoạt môi trường ảo (Khuyên dùng)
 .venv\Scripts\activate        # Trên Windows
 source .venv/bin/activate     # Trên Linux/macOS
 
-# 2. Cài đặt các thư viện cần thiết
+# 3. Cài đặt các thư viện phụ trợ
 pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Sử dụng (Usage)
+## ▶️ Cách Khởi Chạy (Usage)
 
-Mặc định, dự án cung cấp giao diện **Pinkie Web Dashboard** (Web GUI) vô cùng ngọt ngào và dễ thương để bạn tùy chỉnh và tải lịch trực quan:
+Mặc định, **Pinkie Lunar Calendar** sẽ khởi chạy giao diện Web GUI cục bộ cực kỳ đáng yêu và **tự động mở trình duyệt** của bạn:
 
 ```bash
-# Khởi chạy giao diện Web GUI (Tự động mở trình duyệt tại http://localhost:8000)
+# 🌸 Khởi chạy giao diện Web GUI Pinkie (Mặc định)
 python main.py
 ```
+*Trình duyệt của bạn sẽ tự động mở trang điều khiển tại địa chỉ: `http://localhost:8000`*
 
-Nếu bạn muốn sử dụng chế độ dòng lệnh (CLI) thuần túy để tự động hóa hoặc tích hợp script, hãy sử dụng cờ `--cli`:
+---
+
+### ⚙️ Chế độ dòng lệnh tương thích ngược (CLI Mode):
+Nếu bạn muốn sử dụng giao diện dòng lệnh cũ để tự động hóa hoặc tích hợp script, hãy sử dụng thêm cờ `--cli`:
 
 ```bash
-# Tạo file tổng hợp 2026–2030 ở chế độ dòng lệnh CLI
+# Tạo file tổng hợp ở chế độ dòng lệnh CLI
 python main.py --cli
 
-# Tạo file tổng hợp kèm theo file zip chứa các năm riêng lẻ
+# Tạo file tổng hợp kèm theo tệp nén ZIP chứa các năm riêng lẻ
 python main.py --cli --split
 
 # Chỉ tạo lịch cho một năm cụ thể
@@ -62,70 +72,53 @@ python main.py --cli --year 2026
 # Tạo lịch cho một khoảng thời gian tùy chọn
 python main.py --cli --start 2026 --end 2035
 ```
-
-Các file kết quả sẽ được lưu trong thư mục `output/`.
-
----
-
-## 🔗 Link đăng ký vĩnh viễn (Khuyên dùng)
-
-Để lịch tự động cập nhật mà không cần thao tác lại, hãy sử dụng đường link Raw dưới đây để thêm vào Google Calendar hoặc các ứng dụng hỗ trợ URL:
-
-**Đường dẫn:** `https://raw.githubusercontent.com/justduyen/viet-lunar-calendar/main/output/viet_lunar_latest.ics`
+*Các tệp kết quả sau khi tạo xong sẽ được tự động lưu vào thư mục `output/`.*
 
 ---
 
-## 📅 Danh sách ngày lễ và sự kiện
+## 🔗 Đường Dẫn Đăng Ký Vĩnh Viễn (Khuyên Dùng)
 
-### Sự kiện định kỳ hàng tháng
-| Thời điểm | Sự kiện |
-|---|---|
-| **Mùng 1** | 🌑 Mùng 1 Tháng [X] — Ngày Sóc (đi lễ chùa, thắp hương gia tiên). |
-| **Mùng 2 & 16** | 🕯️ Cúng Cô Hồn & Thần Tài (Dành cho người kinh doanh). |
-| **Ngày 14 & Cuối tháng** | ⚠️ Nhắc chuẩn bị đồ lễ cho ngày Rằm hoặc Mùng 1 vào ngày mai. |
-| **Ngày 15 (Rằm)** | 🌕 Rằm Tháng [X] — Ngày Vọng (đi lễ chùa, ăn chay). |
+Để lịch tự động cập nhật trên thiết bị của bạn mà không cần phải tải lại mỗi năm, hãy sử dụng tính năng đăng ký theo URL (Raw link) dưới đây:
 
-### Các ngày lễ lớn trong năm
-- **Tết Nguyên Đán (🧧):** Mùng 1 đến mùng 3 tháng Giêng.
-- **Vía Thần Tài (💰):** Mùng 10 tháng Giêng.
-- **Rằm Tháng Giêng:** Tết Nguyên Tiêu.
-- **Giỗ Tổ Hùng Vương:** 10 tháng 3 âm lịch.
-- **Lễ Phật Đản:** 15 tháng 4 âm lịch.
-- **Tết Đoan Ngọ:** mùng 5 tháng 5 âm lịch.
-- **Lễ Vu Lan:** Rằm tháng Bảy (Xá tội vong nhân).
-- **Tết Trung Thu:** Rằm tháng Tám.
-- **Cúng Ông Công Ông Táo:** 23 tháng Chạp.
-- **Đêm Giao Thừa:** Ngày cuối cùng của năm âm lịch.
+📌 **Đường dẫn đăng ký:** `https://raw.githubusercontent.com/justduyen/viet-lunar-calendar/main/output/viet_lunar_latest.ics`
 
 ---
 
-## 📥 Hướng dẫn nhập (Import) vào ứng dụng Lịch
+## 📅 Các Ngày Lễ & Nhắc Nhở Truyền Thống Được Tích Hợp
 
-**Google Calendar:**
-1. Truy cập [calendar.google.com](https://calendar.google.com).
-2. Nhấn biểu tượng bánh răng (⚙️) > **Cài đặt** > **Nhập & Xuất** > **Nhập**.
-3. Chọn file `.ics` bạn đã tạo và nhấn **Nhập**.
-
-**Apple Calendar:**
-1. Mở ứng dụng Lịch trên máy tính.
-2. Chọn menu **Tệp (File)** > **Nhập (Import)...**
-3. Chọn file `.ics` và nhấn **Nhập**.
-
----
-
-## ❓ Câu hỏi thường gặp (Troubleshooting)
-
-**1. Tại sao tôi không thấy lịch trên điện thoại?**
-- Hãy đảm bảo bạn đã bật tính năng **Đồng bộ hóa (Sync)** cho lịch vừa nhập trong cài đặt của ứng dụng Google Calendar trên điện thoại.
-
-**2. Lịch có tự động cập nhật không?**
-- Nếu bạn nhập bằng file `.ics` thủ công, bạn sẽ cần xóa lịch cũ và nhập lại bản mới khi có thay đổi. Nếu bạn sử dụng tính năng GitHub Actions để tạo URL lịch công khai, lịch có thể tự cập nhật nếu được thêm qua URL.
-
-**3. Tại sao file .ics lại có dung lượng lớn?**
-- File tổng hợp nhiều năm chứa hàng ngàn sự kiện. Nếu ứng dụng của bạn phản hồi chậm, hãy cân nhắc chỉ nhập file của từng năm riêng lẻ (có sẵn trong file nén `.zip`).
+- **🧧 Tết Nguyên Đán:** Mùng 1 đến mùng 3 tháng Giêng âm lịch.
+- **💰 Vía Thần Tài:** Mùng 10 tháng Giêng âm lịch.
+- **🏮 Tết Nguyên Tiêu (Rằm tháng Giêng):** Đi chùa cầu bình an.
+- **🌾 Giỗ Tổ Hùng Vương:** 10 tháng 3 âm lịch.
+- **🪷 Lễ Phật Đản:** 15 tháng 4 âm lịch.
+- **🛶 Tết Đoan Ngọ (Giết sâu bọ):** Mùng 5 tháng 5 âm lịch.
+- **🕯️ Rằm Tháng Bảy (Lễ Vu Lan):** Xá tội vong nhân.
+- **🥮 Tết Trung Thu:** Rằm tháng Tám âm lịch.
+- **🍳 Cúng Ông Công Ông Táo:** 23 tháng Chạp âm lịch.
+- **🌌 Đêm Giao Thừa:** Khoảnh khắc chuyển giao năm mới âm lịch.
+- **🌑 Sự kiện Mùng 1 & 🌕 Ngày Rằm hàng tháng:** Đi chùa cầu phúc, nhắc nhở ăn chay định kỳ.
 
 ---
 
-## 📜 Giấy phép (License)
+## 📥 Hướng Dẫn Nhập (Import) Vào Ứng Dụng Lịch
 
-Dự án này được phát hành dưới giấy phép **MIT**. Xem chi tiết tại file [LICENSE](./LICENSE).
+> [!tip]
+> Bạn có thể đọc hướng dẫn trực quan ngay tại giao diện **Pinkie Web Dashboard** sau khi khởi chạy!
+
+* **Google Calendar:** Truy cập [calendar.google.com](https://calendar.google.com) &rarr; Click biểu tượng bánh răng **⚙️ Cài đặt** &rarr; Chọn **Nhập & Xuất** &rarr; Chọn tệp `.ics` vừa tải về và nhấn nút **Nhập**.
+* **Apple Calendar (iPhone/Macbook):**
+  - *Trên máy Mac:* Mở ứng dụng Lịch &rarr; Chọn menu **Tệp (File)** &rarr; Chọn **Nhập (Import)...** &rarr; Chọn tệp `.ics` và hoàn tất.
+  - *Trên iPhone:* Gửi tệp `.ics` qua Zalo/Email cho chính mình &rarr; Click trực tiếp vào tệp trên điện thoại &rarr; Chọn **Thêm tất cả sự kiện**.
+* **Microsoft Outlook:** Chọn **File** &rarr; Chọn **Open & Export** &rarr; Chọn **Import/Export** &rarr; Chọn nạp tệp iCalendar (.ics) để đồng bộ!
+
+---
+
+## 📜 Giấy Phép (License)
+
+Dự án được phân phối tự do dưới giấy phép **MIT**. Chi tiết xem tại tệp [LICENSE](./LICENSE).
+
+---
+
+## 🧸 Đóng Góp Ý Tưởng (Contribution)
+
+Mọi ý tưởng cải tiến, thiết kế hay thêm thắt các tính năng ngọt ngào cho Pinkie đều được chào đón! Đừng ngần ngại mở một Issue hoặc gửi một Pull Request dễ thương nhé! 🌸
