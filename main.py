@@ -76,13 +76,34 @@ def create_zip_archive(files: list[Path], output_zip: Path):
 # Main logic
 # ──────────────────────────────────────────────────────────────
 
-def main():
-    print_banner()
+def print_pinkie_banner():
+    banner = r"""
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
+🌸                                                          🌸
+🌸     🌙  LỊCH ÂM VIỆT NAM — Pinkie Web Dashboard          🌸
+🌸             Múi giờ GMT+7 (Asia/Ho_Chi_Minh)             🌸
+🌸                                                          🌸
+🌸   For all the cute girls who aren't super tech-savvy     🌸
+🌸   and the sweetest, gentlest boys out there~ ♡           🌸
+🌸                                                          🌸
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
+"""
+    print(banner)
 
+
+# ──────────────────────────────────────────────────────────────
+# Main logic
+# ──────────────────────────────────────────────────────────────
+
+def main():
     parser = argparse.ArgumentParser(
         description='Tạo file iCalendar (.ics) Lịch Âm Việt Nam',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
+    )
+    parser.add_argument(
+        '--cli', action='store_true',
+        help='Chạy chế độ dòng lệnh CLI thuần túy (Mặc định sẽ mở giao diện Web GUI)',
     )
     parser.add_argument(
         '--start', type=int, default=START_YEAR,
@@ -106,6 +127,34 @@ def main():
     )
     args = parser.parse_args()
 
+    # 1. Chạy giao diện Web GUI (Mặc định)
+    if not args.cli:
+        print_pinkie_banner()
+        import webbrowser
+        import threading
+        from server import run_server
+        
+        # Chạy máy chủ Web ở luồng phụ
+        server_thread = threading.Thread(target=run_server, daemon=True)
+        server_thread.start()
+        
+        # Đợi máy chủ khởi động rồi mở trình duyệt tự động
+        time.sleep(0.6)
+        webbrowser.open("http://localhost:8000")
+        
+        print("💡 Gợi ý: Nếu muốn chạy chế độ dòng lệnh cũ, hãy dùng lệnh: python main.py --cli")
+        print("🌸 Nhấn Ctrl + C trong terminal này để tắt máy chủ Web bất kỳ lúc nào.")
+        
+        try:
+            while True:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            print("\n🌸 Hẹn gặp lại bạn lần sau! Chúc bạn một ngày ngọt ngào! (´｡• ᵕ •｡`) ♡")
+            sys.exit(0)
+
+    # 2. Chạy chế độ dòng lệnh CLI
+    print_banner()
+    
     # Xử lý tham số năm (Mặc định: Năm hiện tại -> +10 năm)
     current_year = date.today().year
     

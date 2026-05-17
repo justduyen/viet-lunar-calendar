@@ -1,6 +1,6 @@
 # 🌙 Lịch Âm Việt Nam — Công cụ tạo file iCalendar
 
-**Tiếng Việt** | [English](./README_EN.md)
+**Tiếng Việt** | [English](1%20dự%20án/viet-lunar-calendar/README_EN.md)
 
 ![Update Lunar Calendar ICS](https://github.com/justduyen/viet-lunar-calendar/actions/workflows/main.yml/badge.svg)
 
@@ -40,20 +40,27 @@ pip install -r requirements.txt
 
 ## ▶️ Sử dụng (Usage)
 
-Chạy lệnh sau để bắt đầu tạo file lịch:
+Mặc định, dự án cung cấp giao diện **Pinkie Web Dashboard** (Web GUI) vô cùng ngọt ngào và dễ thương để bạn tùy chỉnh và tải lịch trực quan:
 
 ```bash
-# Tạo file tổng hợp 2026–2060 (mặc định)
+# Khởi chạy giao diện Web GUI (Tự động mở trình duyệt tại http://localhost:8000)
 python main.py
+```
+
+Nếu bạn muốn sử dụng chế độ dòng lệnh (CLI) thuần túy để tự động hóa hoặc tích hợp script, hãy sử dụng cờ `--cli`:
+
+```bash
+# Tạo file tổng hợp 2026–2030 ở chế độ dòng lệnh CLI
+python main.py --cli
 
 # Tạo file tổng hợp kèm theo file zip chứa các năm riêng lẻ
-python main.py --split
+python main.py --cli --split
 
 # Chỉ tạo lịch cho một năm cụ thể
-python main.py --year 2026
+python main.py --cli --year 2026
 
 # Tạo lịch cho một khoảng thời gian tùy chọn
-python main.py --start 2026 --end 2035
+python main.py --cli --start 2026 --end 2035
 ```
 
 Các file kết quả sẽ được lưu trong thư mục `output/`.

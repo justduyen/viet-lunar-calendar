@@ -1,6 +1,6 @@
 # 🌙 Vietnamese Lunar Calendar — iCalendar Generator
 
-[Tiếng Việt](./README.md) | **English**
+[Tiếng Việt](1%20dự%20án/viet-lunar-calendar/README.md) | **English**
 
 ![Update Lunar Calendar ICS](https://github.com/justduyen/viet-lunar-calendar/actions/workflows/main.yml/badge.svg)
 
@@ -46,14 +46,21 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-Run the following command to generate the calendar files:
+By default, the project provides a gorgeous, sweet **Pinkie Web Dashboard** (Web GUI) to visually customize and download your calendars:
 
 ```bash
-# Generate the 5-year rolling aggregate file (default)
+# Run the Web GUI (Automatically launches http://localhost:8000 in your browser)
 python main.py
+```
 
-# Generate with split yearly files and a zip archive
-python main.py --split
+If you prefer to use the pure command-line interface (CLI) for scripting or automation, pass the `--cli` flag:
+
+```bash
+# Generate the 5-year aggregate file via CLI
+python main.py --cli
+
+# Generate split yearly files and a zip archive via CLI
+python main.py --cli --split
 ```
 
 Results are saved in the `output/` directory.
