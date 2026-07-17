@@ -4,6 +4,7 @@
 <meta name="author" content="justduyen">
 
 ## 🌸 Lịch Âm Việt Nam Tự Động Đồng Bộ 🌸
+<img width="1574" height="785" alt="screenshot-licham" src="https://github.com/user-attachments/assets/64fc3e3d-d883-4504-84a3-e5f797dbb7e2" />
 
 ### 1. Giới thiệu
 
